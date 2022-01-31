@@ -1,9 +1,11 @@
 <template>
-  <div class="home">
-    <h2 class="heading">Hi there, Im</h2>
-    <h1 class="heading">Leigh-Anne Bowers</h1>
-    <span id="text"><h3>Aspired</h3></span>
-  </div>
+  <section id="home">
+    <div class="home">
+      <h2>Hi there, I`m</h2>
+      <h1>Leigh-Anne Bowers</h1>
+      <span id="text"></span>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -40,19 +42,18 @@ async function writeWord(word) {
 async function typingEffect() {
   await deleteWord();
   await waitForMs(500);
+  await writeWord("Aspired Web Developer");
+  await waitForMs(1500);
+  await deleteWord();
+  await waitForMs(500);
   await writeWord("Aspired Web Designer");
   await waitForMs(1500);
   await deleteWord();
   await waitForMs(500);
-  await writeWord("Im a Student at Life Choices Academy");
+  await writeWord("");
   await waitForMs(1500);
   await deleteWord();
   await waitForMs(500);
-  await writeWord("Work hard Play even harder");
-  await waitForMs(1500);
-  await deleteWord();
-  await waitForMs(500);
-  await writeWord("LOVE");
 }
 
 typingEffect();
@@ -60,26 +61,29 @@ typingEffect();
 
 
 <style>
+#text {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  width: 100%;
+}
 .home {
-  background-image: url("https://i.postimg.cc/1Xcjts64/Leigh-ann3.jpg");
+  /* background-image: ("https://i.postimg.cc/7hrVCmVP/new-back.jpg");
+  background: linear-gradient(blue, pink); */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.356),
+      #e9621e83
+    ),
+    url("https://i.postimg.cc/5y69kVdt/developback.jpg");
   background-position: cover;
   background-size: cover;
   height: 100vh;
 }
 
-h1.heading {
+h2 {
   font-size: 4rem;
 
-  padding-top: 30px;
-}
-h2.heading {
-  font-size: 4rem;
-
-  padding-top: 10%;
-}
-h3 {
-  font-size: 4rem;
-
-  padding-top: 30px;
+  padding-top: 20%;
 }
 </style>

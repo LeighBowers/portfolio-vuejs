@@ -3,7 +3,9 @@
   <Home />
   <About />
   <Skills />
+  <Resume />
   <Projects />
+  <Testimonials />
   <Contact />
 
   <!-- <Sections /> -->
@@ -13,8 +15,11 @@ import Navbar from "@/components/Navbar.vue";
 import Home from "@/components/Home.vue";
 import About from "@/components/About.vue";
 import Skills from "@/components/Skills.vue";
+import Resume from "@/components/Resume.vue";
 import Projects from "@/components/Projects.vue";
+import Testimonials from "@/components/Testimonials.vue";
 import Contact from "@/components/Contact.vue";
+
 // import Sections from "components/Sections.vue";
 
 export default {
@@ -25,7 +30,9 @@ export default {
     About,
     Skills,
     Projects,
+    Testimonials,
     Contact,
+    Resume,
 
     // Sections,
   },

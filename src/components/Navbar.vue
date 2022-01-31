@@ -1,6 +1,6 @@
 
   <template>
-  <nav class="nav">
+  <nav class="nav nav-static">
     <input type="checkbox" id="nav__checkbox" class="nav__checkbox" />
     <label for="nav__checkbox" class="nav__toggle">
       <img
@@ -11,20 +11,18 @@
     </label>
 
     <ul class="nav__menu">
-      <li>
-        <a href="#">
-          <li><a href="home">Home</a></li>
-        </a>
-      </li>
-      <li><a href="home">Home</a></li>
+      <li><i class="far fa-id-badge"></i></li>
+      <li><a href="#home">|Home|</a></li>
 
-      <li><a href="about">About Me</a></li>
+      <li><a href="#about">|About Me|</a></li>
 
-      <li><a href="projects">Projects</a></li>
+      <li><a href="#projects">|Projects|</a></li>
 
-      <li><a href="skills">Skills</a></li>
+      <li><a href="#resume">|Resume|</a></li>
 
-      <li><a href="contact">Contact Me</a></li>
+      <li><a href="#testimonials">|Testimonials|</a></li>
+
+      <li><a href="#contact">|Contact Me|</a></li>
     </ul>
   </nav>
 </template>
@@ -35,33 +33,37 @@
 
 <style>
 .nav {
-  border-bottom: 1px solid rgb(236, 226, 226);
+  width: 100%;
+  background-color: #e9621eec;
+  z-index: 1;
+  position: fixed; /* Set the navbar to fixed position */
+  letter-spacing: 3px;
 }
 .nav__toggle {
   position: absolute;
   cursor: pointer;
-  margin: 0rem 1rem;
+  margin: 2rem 1rem;
   right: 0;
 }
 
 .close,
 input[type="checkbox"] {
   display: none;
+  color: white;
 }
-.hamburger {
-  margin-top: 0.2rem;
-}
+
 .nav__menu {
   display: flex;
   flex-direction: column;
-  gap: 7rem;
+  gap: 6rem;
   align-items: center;
   margin: 1rem;
 }
+
 li {
   list-style: none;
   display: none;
-  color: antiquewhite;
+  color: rgb(229, 228, 238);
 }
 li:first-child {
   margin-right: auto;
@@ -69,7 +71,7 @@ li:first-child {
 }
 .nav__menu a {
   text-decoration: none;
-  color: rgb(8, 8, 95);
+  color: rgb(237, 237, 245);
   font-size: 1rem;
 }
 #nav__checkbox:checked ~ ul.nav__menu li {

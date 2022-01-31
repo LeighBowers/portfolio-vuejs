@@ -1,38 +1,42 @@
 <template>
-  <section class="about-section">
-    <div class="container">
-      <div class="row clearfix">
-        <!--Image Column-->
-        <div class="image-column col-md-6 col-sm-12 col-xs-12">
-          <div
-            class="inner-column"
-            data-wow-delay="0ms"
-            data-wow-duration="1500ms"
-          >
-            <div class="image">
-              <img src="https://i.postimg.cc/1Xcjts64/Leigh-ann3.jpg" alt="" />
-              <div class="overlay-box"></div>
+  <section id="about">
+    <div class="about-section">
+      <div class="container">
+        <div class="row clearfix">
+          <!--Image Column-->
+          <div class="image-column col-md-6 col-sm-12 col-xs-12">
+            <div
+              class="inner-column"
+              data-wow-delay="0ms"
+              data-wow-duration="1500ms"
+            >
+              <div class="image">
+                <img
+                  src="https://i.postimg.cc/1Xcjts64/Leigh-ann3.jpg"
+                  alt=""
+                />
+                <div class="overlay-box"></div>
+              </div>
             </div>
           </div>
-        </div>
-        <!--Content Column-->
-        <div class="content-column col-md-6 col-sm-12 col-xs-12">
-          <div class="inner-column">
-            <div class="sec-title">
-              <div class="title">About Me</div>
-              <h2>
-                We Are The Leader In <br />
-                The Interiores
-              </h2>
+          <!--Content Column-->
+          <div class="content-column col-md-6 col-sm-12 col-xs-12">
+            <div class="inner-column">
+              <div class="sec-title">
+                <div class="title"><h1>About Me</h1></div>
+                <h2>Aspired <br /></h2>
+              </div>
+              <div class="text">
+                I am a hard-working, passionate individual who loves to learn
+                nnew things. Although I am a soft talker, I can hold my own when
+                required. I am friendly and easy to talk to and work well in a
+                team.
+              </div>
+
+              <a href="about.html" class="theme-btn btn-style-three"
+                >Read More</a
+              >
             </div>
-            <div class="text">
-              I am a hard-working, passionate individual who loves to learn nnew
-              things. Although I am a soft talker, I can hold my own when
-              required. I am friendly and easy to talk to and work well in a
-              team.
-            </div>
-            <div class="email">Request Quote:</div>
-            <a href="about.html" class="theme-btn btn-style-three">Read More</a>
           </div>
         </div>
       </div>
@@ -45,6 +49,13 @@ export default {};
 </script>
 
 <style>
+.about-section {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.356), #e9621e83),
+    url("");
+  background-position: cover;
+  background-size: cover;
+  height: 100vh;
+}
 .about-section {
   position: relative;
   padding: 120px 0px;
@@ -69,21 +80,9 @@ export default {};
   margin-bottom: 40px;
 }
 
-.about-section .content-column .email {
-  position: relative;
-  color: #252525;
-  font-weight: 700;
-  margin-bottom: 50px;
-}
-
-.about-section .image-column {
-  position: relative;
-  margin-bottom: 50px;
-}
-
 .about-section .image-column .inner-column {
   position: relative;
-  padding: 40px 40px 0px 0px;
+  padding: 40px 40px 20px 0px;
   margin-left: 50px;
 }
 
@@ -98,38 +97,10 @@ export default {};
   border: 2px solid #e9621eec;
 }
 
-.about-section .image-column .inner-column .image {
-  position: relative;
-}
-
-.about-section .image-column .inner-column .image:before {
-  position: absolute;
-  content: "";
-  left: -50px;
-  bottom: -50px;
-  width: 299px;
-  height: 299px;
-}
-
 .about-section .image-column .inner-column .image img {
   position: relative;
   width: 100%;
   display: block;
-}
-
-.about-section .image-column .inner-column .image .overlay-box {
-  position: absolute;
-  left: 40px;
-  bottom: 48px;
-}
-
-.about-section .image-column .inner-column .image .overlay-box .year-box {
-  position: relative;
-  color: #252525;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1.4em;
-  padding-left: 125px;
 }
 
 .about-section .btn-style-three:before {
@@ -140,7 +111,7 @@ export default {};
   z-index: -1;
   right: -10px;
   bottom: -10px;
-  background: url(https://i.ibb.co/DKn55Qz/pattern-1.jpg) repeat;
+  /* background: url(https://i.ibb.co/DKn55Qz/pattern-1.jpg) repeat; */
 }
 .about-section .btn-style-three:hover {
   color: #ffffff;
@@ -186,4 +157,5 @@ export default {};
   height: 1px;
   background-color: #d66e28;
 }
+/* experience */
 </style>
