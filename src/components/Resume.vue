@@ -65,43 +65,50 @@
     </div>
 
     <!-- bar -->
-
-    <img src="https://i.postimg.cc/25FwD6cy/desk.jpg" alt="" />
-    <div class="container-skills">
-      <div class="html">
-        <p class="bar-title">
-          HTML
-          <span class="percent align-right">90%</span>
-        </p>
-        <div class="bar">
-          <div class="bar-fill bar-fill-html start"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="https://i.postimg.cc/25FwD6cy/desk.jpg" alt="" />
         </div>
-      </div>
-      <div class="css">
-        <p class="bar-title">
-          CSS
-          <span class="percent align-right">60%</span>
-        </p>
-        <div class="bar">
-          <div class="bar-fill bar-fill-css start"></div>
-        </div>
-      </div>
-      <div class="javascript">
-        <p class="bar-title">
-          Javascript
-          <span class="percent align-right">70%</span>
-        </p>
-        <div class="bar">
-          <div class="bar-fill bar-fill-javascript start"></div>
-        </div>
-      </div>
-      <div class="bootstrap">
-        <p class="bar-title">
-          Bootstrap
-          <span class="percent align-right">90%</span>
-        </p>
-        <div class="bar">
-          <div class="bar-fill bar-fill-bootstrap start"></div>
+        <div class="col">
+          <div class="container-skills">
+            <div class="html">
+              <p class="bar-title">
+                HTML
+                <span class="percent align-right">90%</span>
+              </p>
+              <div class="bar">
+                <div class="bar-fill bar-fill-html start"></div>
+              </div>
+            </div>
+            <div class="css">
+              <p class="bar-title">
+                CSS
+                <span class="percent align-right">60%</span>
+              </p>
+              <div class="bar">
+                <div class="bar-fill bar-fill-css start"></div>
+              </div>
+            </div>
+            <div class="javascript">
+              <p class="bar-title">
+                Javascript
+                <span class="percent align-right">70%</span>
+              </p>
+              <div class="bar">
+                <div class="bar-fill bar-fill-javascript start"></div>
+              </div>
+            </div>
+            <div class="bootstrap">
+              <p class="bar-title">
+                Bootstrap
+                <span class="percent align-right">90%</span>
+              </p>
+              <div class="bar">
+                <div class="bar-fill bar-fill-bootstrap start"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

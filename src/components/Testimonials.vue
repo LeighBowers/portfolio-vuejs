@@ -1,69 +1,176 @@
 <template>
-  <section id="testimonial">
-    <div class="test-title">
-      <h1>Testimonials</h1>
-    </div>
-    <div class="test-container">
-      <div class="test-faders">
-        <div class="left"></div>
-        <div class="right"></div>
-      </div>
+  <section id="testimonials">
+    <div class="test-title"><h1>Testimonials</h1></div>
+    <div class="container p-5">
+      <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+        <div class="col">
+          <div class="test-card h-100 shadow-sm">
+            <div class="text-center">
+              <div class="img-hover-zoom img-hover-zoom--colorize">
+                <img
+                  class="shadow"
+                  src="https://i.postimg.cc/R018hJxf/1625390188691.jpg"
+                  alt="Another Image zoom-on-hover effect"
+                />
+              </div>
+            </div>
 
-      <div class="test-items">
-        <div class="test-entry">
-          <p class="name">John Doe</p>
-          <img
-            class="test-img"
-            src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
-            alt="Smiling person"
-          />
-          <p class="quote">
-            "Man, I think this app freaking rocks and stuff. Dude."
-          </p>
+            <div class="card-body">
+              <div class="clearfix mb-3"></div>
+
+              <div class="my-2 text-center">
+                <h1>Alex</h1>
+              </div>
+              <div class="mb-3">
+                <h2 class="text-uppercase text-center role">
+                  Leigh-Anne is dilligent and takes pride in producing quality
+                  work. She will achieve greatness as she progresses in her
+                  career.
+                </h2>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="test-entry">
-          <p class="test-name">John Doe</p>
-          <img
-            class="test-img"
-            src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
-            alt="Smiling person"
-          />
-          <p class="quote">
-            "Man, I think this app freaking rocks and stuff. Dude."
-          </p>
+        <div class="col">
+          <div class="test-card h-100 shadow-sm">
+            <div class="text-center">
+              <div class="img-hover-zoom img-hover-zoom--colorize">
+                <img
+                  class="shadow"
+                  src="https://i.postimg.cc/ht2QBpf7/Cameron1.jpg"
+                  alt="Another Image zoom-on-hover effect"
+                />
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="clearfix mb-3"></div>
+
+              <div class="my-2 text-center">
+                <h1>Cameron</h1>
+              </div>
+              <div class="mb-3">
+                <h2 class="text-uppercase text-center role">
+                  Leigh-Anne is a very kind and hardworking individual. she is
+                  passionate about coding and very committed to her work. she
+                  works well with others and is a good leader.
+                </h2>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="test-entry">
-          <p class="test-name">John Doe</p>
-          <img
-            class="test-img"
-            src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
-            alt="Smiling person"
-          />
-          <p class="quote">
-            "Man, I think this app freaking rocks and stuff. Dude."
-          </p>
+        <div class="col">
+          <div class="test-card h-100 shadow-sm">
+            <div class="text-center">
+              <div class="img-hover-zoom img-hover-zoom--colorize">
+                <img
+                  class="shadow"
+                  src="https://i.postimg.cc/y6MJ1Mf9/Craig3.jpg"
+                  alt="Another Image zoom-on-hover effect"
+                />
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="clearfix mb-3"></div>
+
+              <div class="my-2 text-center">
+                <h1>Craige</h1>
+              </div>
+              <div class="mb-3">
+                <h2 class="text-uppercase text-center role">
+                  She is very sweet and a team player. She never shys away from
+                  asking for help and helps out where she can too. Shes an
+                  extremely hard worker and knows how to present a good website.
+                </h2>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="test-entry">
-          <p class="test-name">John Doe</p>
-          <img
-            class="test-img"
-            src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
-            alt="Smiling person"
-          />
-          <p class="quote">
-            "Man, I think this app freaking rocks and stuff. Dude."
-          </p>
+        <div class="col">
+          <div class="test-card h-100 shadow-sm">
+            <div class="text-center">
+              <div class="img-hover-zoom img-hover-zoom--colorize">
+                <img
+                  class="shadow"
+                  src="https://i.postimg.cc/LXjR4bQ4/Amaarah3.jpg"
+                  alt="Another Image zoom-on-hover effect"
+                />
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="clearfix mb-3"></div>
+
+              <div class="my-2 text-center">
+                <h1>Amaarah</h1>
+              </div>
+              <div class="mb-3">
+                <h2 class="text-uppercase text-center role">
+                  Leigh-Anne is a great person to work with. She is very helpful
+                  and considerate of others and she has a very good work ethic.
+                  She would be a great addition to any team she is a part of. I
+                  enjoy working with her.
+                </h2>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="test-entry">
-          <p class="test-name">John Doe</p>
-          <img
-            class="test-img"
-            src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940"
-            alt="Smiling person"
-          />
-          <p class="quote">
-            "Man, I think this app freaking rocks and stuff. Dude."
-          </p>
+        <div class="col">
+          <div class="test-card h-100 shadow-sm">
+            <div class="text-center">
+              <div class="img-hover-zoom img-hover-zoom--colorize">
+                <img
+                  class="shadow"
+                  src="https://i.postimg.cc/GhhwgzPT/Diego2.jpg"
+                  alt="Another Image zoom-on-hover effect"
+                />
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="clearfix mb-3"></div>
+
+              <div class="my-2 text-center">
+                <h1>Diago</h1>
+              </div>
+              <div class="mb-3">
+                <h2 class="text-uppercase text-center role">
+                  Leigh-anne is very self motivated individual that pays close
+                  attention to detail and always makes sure to get the job done
+                  .
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="test-card h-100 shadow-sm">
+            <div class="text-center">
+              <div class="img-hover-zoom img-hover-zoom--colorize">
+                <img
+                  class="shadow"
+                  src="https://i.postimg.cc/0jZfp9Xt/Tursha4.jpg"
+                  alt="Another Image zoom-on-hover effect"
+                />
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="clearfix mb-3"></div>
+
+              <div class="my-2 text-center">
+                <h1>Tursha</h1>
+              </div>
+              <div class="mb-3">
+                <h2 class="text-uppercase text-center role">
+                  This young women is extremely hard working.She never backs
+                  down from a challege and always gives it her best.Overall a
+                  lovely person to work with!
+                </h2>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -77,7 +184,7 @@ export default {};
 <style>
 .test-title {
   position: relative;
-  padding-bottom: 100px;
+  padding-bottom: 2px;
 }
 .test-title {
   position: relative;
@@ -99,94 +206,81 @@ export default {};
   background-color: #d66e28;
 }
 
-.test-img {
-  width: 35%;
+.container-fluid {
+  max-width: 1400px;
 }
 
-.test-container {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.test-items {
-  display: flex;
-  align-items: center;
-  width: fit-content;
-  animation: carouselAnim 50s infinite alternate linear;
-}
-
-.test-entry {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-  width: 300px;
+.test-card {
   background: #fff;
-  margin: 1em;
-  padding: 0.5em;
-  border-radius: 10px;
-  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  border: 1;
+  border-radius: 1rem;
 }
 
-@media only screen and (max-width: 768px) {
-  .items {
-    animation: carouselAnim 35s infinite alternate linear;
+.img-hover-zoom--colorize img {
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
+  padding: 1px;
+  transition: transform 0.5s;
+  filter: grayscale(100%);
+  align-items: center;
+}
+
+.img-hover-zoom--colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.05);
+}
+
+.test-card h5 {
+  overflow: hidden;
+  height: 80px;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.test-card h5 a {
+  color: black;
+  text-decoration: none;
+}
+
+.role {
+  color: #7a7a7a;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fab {
+  font-size: 1.5rem;
+  color: darkgray;
+  transition: transform 0.5s;
+}
+
+.fab:hover {
+  color: black;
+  transform: scale(1.1);
+}
+
+.test-card h2 {
+  font-size: 1rem;
+}
+
+/* MEDIA */
+
+@media only screen and (min-width: 1200px) {
+  .img-hover-zoom--colorize img {
+    width: 200px;
   }
+}
 
-  @keyframes carouselAnim {
-    from {
-      transform: translate(0, 0);
-    }
-    to {
-      transform: translate(calc(-100% + (2 * 300px)));
-    }
+@media only screen and (min-width: 1200px) {
+  .h1,
+  h1 {
+    font-size: 2rem;
   }
-}
-
-.test-entry p {
-  text-align: center;
-  padding: 1em;
-}
-
-.test-name {
-  font-weight: bold;
-}
-
-@keyframes carouselAnim {
-  from {
-    transform: translate(0, 0);
-  }
-  to {
-    transform: translate(calc(-100% + (5 * 300px)));
-  }
-}
-
-.test-container .faders {
-  width: 100%;
-  position: absolute;
-  height: 100%;
-}
-
-.faders .right,
-.faders .left {
-  background: linear-gradient(
-    to right,
-    rgba(245, 245, 245, 1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  width: 15%;
-  height: 100%;
-  position: absolute;
-  z-index: 200;
-}
-
-.test-right {
-  right: 0;
-  background: linear-gradient(
-    to left,
-    rgba(245, 245, 245, 1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
 }
 </style>

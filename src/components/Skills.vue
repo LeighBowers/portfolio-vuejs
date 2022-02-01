@@ -6,36 +6,39 @@
         <div class="row">
           <div class="col-lg">
             <div class="box">
-              <i class="fas fa-mouse fa-3x mb-4"></i>
-              <h4>Web Design</h4>
-              <p>
-                Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
-                Sed id mauris vel neque
-              </p>
-              <a class="readmore" href="#"><span>Read More</span></a>
+              <div class="inner-box">
+                <i class="fas fa-mouse fa-3x mb-4"></i>
+                <h4>Web Design</h4>
+                <p>
+                  Duis molestie enim mattis gravida viverra. Fusce ut eros
+                  augue. Sed id mauris vel neque
+                </p>
+              </div>
             </div>
           </div>
 
           <div class="col-lg">
             <div class="box">
-              <i class="fas fa-laptop-code fa-3x mb-4"></i>
-              <h4>Coding</h4>
-              <p>
-                Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
-                Sed id mauris vel neque
-              </p>
-              <a class="readmore" href="#"><span>Read More</span></a>
+              <div class="inner-box">
+                <i class="fas fa-laptop-code fa-3x mb-4"></i>
+                <h4>Coding</h4>
+                <p>
+                  Duis molestie enim mattis gravida viverra. Fusce ut eros
+                  augue. Sed id mauris vel neque
+                </p>
+              </div>
             </div>
           </div>
           <div class="col-lg">
             <div class="box">
-              <i class="fas fa-mobile-alt fa-3x mb-4"></i>
-              <h4>App Developing</h4>
-              <p>
-                Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
-                Sed id mauris vel neque
-              </p>
-              <a class="readmore" href="#"><span>Read More</span></a>
+              <div class="inner-box">
+                <i class="fas fa-mobile-alt fa-3x mb-4"></i>
+                <h4>App Developing</h4>
+                <p>
+                  Duis molestie enim mattis gravida viverra. Fusce ut eros
+                  augue. Sed id mauris vel neque
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -84,7 +87,9 @@ export default {};
   background-color: #d66e28;
 }
 .skills .box {
-  background-color: #0e409c48;
+  padding-bottom: 20%;
+
+  background-color: #5b5d6348;
   overflow: hidden;
   transition: 0.3s ease;
   left: 25px;
@@ -92,6 +97,7 @@ export default {};
   padding-top: 5px;
 }
 .skills .box i {
+  padding-bottom: 10%;
   color: #e9621eec;
   transition: inherit;
   transition-delay: 0s;
