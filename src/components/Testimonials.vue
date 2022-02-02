@@ -182,6 +182,9 @@ export default {};
 </script>
 
 <style>
+#testimonials {
+  margin-top: -100px;
+}
 .test-title {
   position: relative;
   padding-bottom: 2px;
@@ -211,7 +214,7 @@ export default {};
 }
 
 .test-card {
-  background: #fff;
+  background: #9e9090bd;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
   border: 1;
   border-radius: 1rem;

@@ -16,9 +16,9 @@
 
       <li><a href="#about">|About Me|</a></li>
 
-      <li><a href="#projects">|Projects|</a></li>
-
       <li><a href="#resume">|Resume|</a></li>
+
+      <li><a href="#projects">|Projects|</a></li>
 
       <li><a href="#testimonials">|Testimonials|</a></li>
 
@@ -37,7 +37,7 @@
   background-color: #e9621eec;
   z-index: 1;
   position: fixed; /* Set the navbar to fixed position */
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 .nav__toggle {
   position: absolute;

@@ -3,15 +3,25 @@
         {
             "id": "1",
             "title": "First Project",
-            "img": "https://images.pexels.com/photos/6779220/pexels-photo-6779220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            "img": "https://i.postimg.cc/jSk2Rn3S/java-calc.png"
         },
         {
             "id": "2",
             "title": "Second Project",
-            "img": "https://images.pexels.com/photos/6779220/pexels-photo-6779220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            "img": "https://i.postimg.cc/5tPgmgtS/Screenshot-from-2022-01-28-16-01-31.png"
         },
         {
             "id": "3",
+            "title": "Third Project",
+            "img": "https://i.postimg.cc/50swJ2z5/Pos.png"
+        },
+        {
+            "id": "4",
+            "title": "Third Project",
+            "img": "https://i.postimg.cc/RZtyZjXJ/calc.png"
+        },
+        {
+            "id": "5",
             "title": "Third Project",
             "img": "https://images.pexels.com/photos/6779220/pexels-photo-6779220.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
         }

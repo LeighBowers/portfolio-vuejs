@@ -12,18 +12,18 @@
               </div>
               <div class="content">
                 <div class="info">
-                  <span class="dark-bg">2010-2012</span>
+                  <span class="dark-bg">2021</span>
 
-                  <h6>Graphic Designer</h6>
-                  <p>International Design Institute</p>
+                  <h6>Web Development</h6>
+                  <p>Life Choices</p>
                   <hr />
-                  <span class="dark-bg">2010-2012</span>
-                  <h6>Graphic Designer</h6>
-                  <p>International Design Institute</p>
+                  <span class="dark-bg">July 2014-March 2015</span>
+                  <h6>Social Auxiliary Work Student</h6>
+                  <p>Hugenote College</p>
                   <hr />
-                  <span class="theme-bg">2010-2012</span>
-                  <h6>Graphic Designer</h6>
-                  <p>International Design Institute</p>
+                  <span class="theme-bg">2011</span>
+                  <h6>Grade 12</h6>
+                  <p>Modderdam High School</p>
                   <hr />
                 </div>
               </div>
@@ -63,6 +63,7 @@
         </div>
       </div>
     </div>
+    <br />
 
     <!-- bar -->
     <div class="container">
@@ -112,7 +113,59 @@
         </div>
       </div>
     </div>
-    <hr />
+
+    <!-- skills -->
+    <section id="skills">
+      <div class="skill-title"><h1>Skills</h1></div>
+
+      <main>
+        <div class="grid">
+          <div class="box">
+            <div class="inner-box">
+              <i class="fas fa-mouse fa-3x mb-4"></i>
+              <h4>Web Design</h4>
+              <p>
+                Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
+                Sed id mauris vel neque
+              </p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="inner-box">
+              <i class="fas fa-laptop-code fa-3x mb-4"></i>
+              <h4>Coding</h4>
+              <p>
+                Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
+                Sed id mauris vel neque
+              </p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="inner-box">
+              <i class="fas fa-mobile-alt fa-3x mb-4"></i>
+              <h4>App Developing</h4>
+              <p>
+                Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
+                Sed id mauris vel neque
+              </p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="inner-box">
+              <i class="fas fa-mouse fa-3x mb-4"></i>
+              <h4>Web Development</h4>
+              <p>
+                Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
+                Sed id mauris vel neque
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
   </section>
 </template>
 
@@ -346,5 +399,81 @@ export default {};
   100% {
     width: 70%;
   }
+}
+
+/* skills */
+.skill-title {
+  position: relative;
+  padding-bottom: 2px;
+}
+.skill-title {
+  position: relative;
+  color: #e9621eec;
+  font-size: 18px;
+  font-weight: 700;
+  padding-right: 50px;
+  margin-bottom: 5px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+.skill-title :before {
+  position: absolute;
+  content: "";
+  right: 0px;
+  bottom: 7px;
+  width: 40px;
+  height: 1px;
+  background-color: #e9621eec;
+}
+main {
+  margin: 5em 5em;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    margin: 0.4em;
+  }
+}
+
+#container {
+  margin: 0 1em;
+  padding: 3em;
+  border-radius: 3px;
+  border: 1px solid #e9621eec;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+}
+
+@media screen and (max-width: 600px) {
+  #container {
+    font-size: 1em;
+    padding: 0.6em;
+  }
+}
+
+.grid {
+  margin: 5em auto;
+  padding: 0 1em;
+  max-width: 100%;
+  display: grid;
+  grid-auto-rows: max-content;
+  grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
+  grid-gap: 1em;
+}
+
+.box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  padding: 2em;
+  text-align: center;
+  color: #080808;
+  background: linear-gradient(45deg, #d6926b, #ddf0b2, #dfa576);
+  border-radius: 3px;
+  border: 2px solid rgba(56, 54, 56, 0.644);
+  opacity: 0.8;
+}
+
+.box:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+  border: 2px solid rgb(212, 121, 16);
+  opacity: 1;
 }
 </style>

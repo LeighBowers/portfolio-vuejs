@@ -52,12 +52,12 @@ export default {};
 .about-section {
   background: linear-gradient(to bottom, rgba(245, 246, 252, 0.356), #e9621e83),
     url("");
-  background-position: cover;
+  /* background-position: cover; */
   background-size: cover;
   height: 100vh;
 }
 .about-section {
-  position: relative;
+  /* position: relative; */
   padding: 120px 0px;
 }
 
@@ -100,7 +100,7 @@ export default {};
 .about-section .image-column .inner-column .image img {
   position: relative;
   width: 100%;
-  display: block;
+  /* display: block; */
 }
 
 .about-section .btn-style-three:before {
@@ -124,7 +124,7 @@ export default {};
   font-size: 15px;
   font-weight: 700;
   background: none;
-  display: inline-block;
+  /* display: inline-block; */
   padding: 11px 40px;
   background-color: #ffffff;
   text-transform: capitalize;

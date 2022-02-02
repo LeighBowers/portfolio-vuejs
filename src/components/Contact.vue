@@ -1,134 +1,139 @@
 <template>
   <section id="contact">
     <!--    Contacts    -->
-    <div class="contact-container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="contact-title"><h2 class="text-center">CONTACTS</h2></div>
-        </div>
-      </div>
-      <br />
-
-      <div class="row">
-        <div class="col-md-12">
-          <div class="jumbotron">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="container">
-                  <form
-                    action="https://formspree.io/f/xjvjqbag"
-                    target="_blank"
-                    method="post"
-                  >
-                    <div class="form-group">
-                      <label for="name">Name</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="name"
-                        placeholder="Leigh-Anne"
-                        required
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="last-name">Last name</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="last-name"
-                        placeholder="Bowers"
-                        required
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="email">Email</label>
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="email"
-                        placeholder="leighsylvester9@gmail.com"
-                        required
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="massage">Massage</label>
-                      <textarea
-                        class="form-control"
-                        id="massage"
-                        rows="3"
-                        required
-                      ></textarea>
-                    </div>
-                    <br />
-                    <button type="submit" class="btn btn-white">Send</button>
-                    <!-- <small>Sorry, form now is out of order.</small> -->
-                  </form>
+    <section class="contact-page-sec">
+      <div class="contact-title"><h1>ContactMe</h1></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-map-marked"></i>
+                </div>
+                <div class="contact-info-text">
+                  <h2>address</h2>
+                  <span>Cape Towns </span>
+                  <span>South Africa</span>
                 </div>
               </div>
-              <!--contact form-->
-              <div class="col-md-6">
-                <div class="contact-text text-center mb-3" style="margin: 70px">
-                  <div class="row mb-4">
-                    <div class="col-ms-3">
-                      <div class="contact-info-items padd-15">
-                        <div class="icons"><i class="bi bi-telephone"></i></div>
-                        <h4>Contact me on</h4>
-                        <p>+27 8875 4545</p>
-                      </div>
-                    </div>
-                    <div class="col-ms-3">
-                      <div class="contact-info-items padd-15">
-                        <div class="icons"><i class="bi bi-house"></i></div>
-                        <h4>Home</h4>
-                        <p>Cape Town, South Africa</p>
-                      </div>
-                    </div>
-                    <div class="col-ms-3">
-                      <div class="contact-info-items padd-15">
-                        <div class="icons">
-                          <i class="bi bi-envelope-open"></i>
-                        </div>
-                        <h4>Email</h4>
-                        <p>leighbowers@gmail.com</p>
-                      </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-info-text">
+                  <h2>E-mail</h2>
+                  <span>info@LoremIpsum.com</span>
+                  <span>yourmail@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="contact-info-text">
+                  <h2>Contact Details</h2>
+                  <span>Cell: 0658820592</span>
+                  <span>Alternitive: 0769093578</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="contact-page-form" method="post">
+              <h2>Get in Touch</h2>
+              <form
+                action="https://formspree.io/f/xjvjqbag"
+                target="_blank"
+                method="post"
+              >
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="single-input-field">
+                      <input type="text" placeholder="Your Name" name="name" />
                     </div>
                   </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="single-input-field">
+                      <input
+                        type="email"
+                        placeholder="E-mail"
+                        name="email"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="single-input-field">
+                      <input
+                        type="text"
+                        placeholder="Phone Number"
+                        name="phone"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="single-input-field">
+                      <input type="text" placeholder="Subject" name="subject" />
+                    </div>
+                  </div>
+                  <div class="col-md-12 message-input">
+                    <div class="single-input-field">
+                      <textarea
+                        placeholder="Write Your Message"
+                        name="message"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="single-input-fieldsbtn">
+                    <input type="submit" value="Submit" />
+                  </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
-          <!--jumbotron-->
         </div>
       </div>
+    </section>
 
-      <!--   FOOTER   -->
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <ul class="list-inline">
-                <li class="footer-menu-divider">&sdot;</li>
-                <li>
-                  <a href="#about">About</a>
-                </li>
-                <li class="footer-menu-divider">&sdot;</li>
-                <li>
-                  <a href="#services">Services</a>
-                </li>
-                <li class="footer-menu-divider">&sdot;</li>
-                <li>
-                  <a href="#contact">Contact</a>
-                </li>
-                <li>&sdot;</li>
-              </ul>
-              <p class="copyright text-muted small">
-                Copyright &copy; 2016. All Rights Reserved
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
+    <div class="social_links">
+      <a href="https://github.com/LeighBowers">
+        <span class="fa-stack fa-lg fb combo">
+          <i class="fa fa-circle fa-stack-2x circle"></i>
+          <i class="fa fa-github fa-stack-1x fa-inverse icon"></i>
+        </span>
+      </a>
+
+      <a href="https://codepen.io/leighbowers">
+        <span class="fa-stack fa-lg gt combo">
+          <i class="fa fa-circle fa-stack-2x circle"></i>
+          <i class="fa fa-codepen fa-stack-1x fa-inverse icon"></i>
+        </span>
+      </a>
+      <a href="https://www.linkedin.com/in/developersah/">
+        <span class="fa-stack fa-lg tw combo">
+          <i class="fa fa-circle fa-stack-2x circle"></i>
+          <i class="fa fa-linkedin fa-stack-1x fa-inverse icon"></i>
+        </span>
+      </a>
+      <a href="https://app.netlify.com/teams/leighbowers/overview">
+        <span class="fa-stack fa-lg tw combo">
+          <i class="fa fa-circle fa-stack-2x circle"></i>
+          <i class="fa fa-netlify fa-stack-1x fa-inverse icon"></i>
+        </span>
+      </a>
     </div>
+    <div class="copy"><p class="copyright">Company Name © 2018</p></div>
   </section>
 </template>
             
@@ -137,6 +142,9 @@ export default {};
 </script>
 
 <style>
+#contact {
+  margin-top: -100px;
+}
 .contact-title {
   position: relative;
   padding-bottom: 40px;
@@ -160,75 +168,168 @@ export default {};
   height: 1px;
   background-color: #d66e28;
 }
-/* Footer */
-.contact-container {
-  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.356), #e9621e83),
-    url("");
-  background-position: cover;
-  background-size: cover;
-  height: 100vh;
+section {
+  padding: 60px 0;
+  min-height: 100vh;
 }
-footer .jumbotron {
-  padding: 2rem 2rem;
+.contact-info {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
 }
-
-/* media queries */
-@media (max-width: 850px) {
-  .jumbotron-fluid img {
-    width: 80%;
-  }
+.contact-info-icon {
+  margin-bottom: 15px;
 }
-
-@media (max-width: 767px) {
-  .jumbotron-fluid {
-    margin-top: 115px;
-    text-align: center;
-  }
-  .jumbotron-vertical-middle {
-    margin-top: -60px;
-  }
-  form button {
-    margin-bottom: 30px;
-  }
-  .jumbotron-fluid img {
-    width: 50%;
-  }
+.contact-info-item {
+  background: #9e9090bd;
+  padding: 30px 0px;
 }
-@media (max-width: 575px) {
-  .jumbotron-fluid {
-    margin-top: 130px;
-  }
-  .display-3 {
-    font-size: 40px;
-    font-weight: bold;
-  }
-  .jumbotron-vertical-middle {
-    margin-top: -30px;
-  }
-  .jumbotron-fluid img {
-    width: 50%;
-  }
-}
-@media (max-width: 441px) {
-  .jumbotron {
-    margin-top: 170px;
-  }
-}
-@media (max-width: 330px) {
-  .jumbotron {
-    margin-top: 210px;
-  }
-}
-footer {
-  padding: 50px 0;
-  background-color: #1c1c1c;
+.contact-page-sec .contact-page-form h2 {
+  color: #071c34;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 700;
 }
 
-a {
-  color: #e4dede;
+.contact-page-form .col-md-6.col-sm-6.col-xs-12 {
+  padding-left: 0;
+}
+.contact-page-form.contact-form input {
+  margin-bottom: 5px;
+}
+.contact-page-form.contact-form textarea {
+  height: 110px;
 }
 
-p.copyright {
-  margin: 15px 0 0;
+.contact-info-icon i {
+  font-size: 48px;
+  color: #e9621eec;
+}
+.contact-info-text p {
+  margin-bottom: 0px;
+}
+.contact-info-text h2 {
+  color: #fff;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contact-info-text span {
+  color: #999999;
+  font-size: 16px;
+  /* font-weight: ; */
+  display: inline-block;
+  width: 100%;
+}
+
+.contact-page-form input {
+  background: #9e9090bd none repeat scroll 0 0;
+  border: 1px solid #f9f9f9;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.contact-page-form .message-input {
+  display: inline-block;
+  width: 100%;
+  padding-left: 0;
+}
+.single-input-field textarea {
+  background: #9e9090bd none repeat scroll 0 0;
+  border: 1px solid #535e64;
+  width: 100%;
+  height: 120px;
+  padding: 12px 16px;
+  border-radius: 4px;
+}
+.single-input-fieldsbtn input[type="submit"] {
+  background: #e9621eec none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-weight: 600;
+  padding: 10px 0;
+  text-transform: capitalize;
+  width: 150px;
+  margin-top: 20px;
+  font-size: 16px;
+  margin-left: -87%;
+}
+.single-input-fieldsbtn input[type="submit"]:hover {
+  background: #071c34;
+  transition: all 0.4s ease-in-out 0s;
+  border-color: #071c34;
+}
+.single-input-field h4 {
+  color: #464646;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.contact-page-form {
+  display: inline-block;
+  width: 100%;
+  margin-top: -80px;
+}
+
+.contact-page-form form {
+  padding: 20px 15px 0;
+}
+
+/* footer */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+.social_links {
+  padding: 1rem;
+
+  margin-top: 2rem;
+
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.social_links .combo {
+  transform: scale(0.9);
+  transition: 0.4s ease-in;
+  margin: 0 0.5rem;
+  height: 3em;
+  width: 3em;
+  line-height: 3em;
+}
+.combo .circle {
+  color: #f9f9f9;
+  transition: 0.4s ease-in;
+  font-size: 3em;
+}
+.combo .icon {
+  color: #444343;
+  font-size: 2rem;
+  transform: translateY(1px);
+  transition: 0.2s ease-in;
+}
+.combo:hover {
+  transform: scale(1.1);
+}
+.combo:hover,
+.combo:hover .icon {
+  color: white;
+}
+
+.fb:hover,
+.fb:hover .circle {
+  color: #10151a;
+}
+
+.tw:hover,
+.tw:hover .circle {
+  color: #191f24;
+}
+.gt:hover,
+.gt:hover .circle {
+  color: #1f1f1f;
+}
+.copy {
+  margin-right: 5%;
 }
 </style>

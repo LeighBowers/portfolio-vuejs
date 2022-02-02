@@ -82,7 +82,7 @@ typingEffect();
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 6rem;
 
   padding-top: 20%;
 }
