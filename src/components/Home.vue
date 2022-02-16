@@ -1,71 +1,32 @@
 <template>
   <section id="home">
     <div class="home">
-      <h2>Hi there, I`m</h2>
       <h1>Leigh-Anne Bowers</h1>
-      <span id="text"></span>
+      <h1>Aspired</h1>
+      <div class="typing-slider">
+        <p>Web Developer</p>
+        <p>Web Designer</p>
+        <p>Full-Stack Developer</p>
+      </div>
+      <!-- <span id="text"></span> -->
     </div>
   </section>
 </template>
 
 <script>
-//Function to force a waiting period
-function waitForMs(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-async function deleteWord() {
-  let sentence = document.querySelector("#text").innerHTML.trim();
-  console.log(sentence);
-
-  let characters = sentence.split("");
-  console.log(characters);
-
-  while (characters.length > 0) {
-    await waitForMs(100);
-    characters.pop();
-    document.querySelector("#text").innerHTML = characters.join("");
-  }
-}
-
-async function writeWord(word) {
-  let character = word.split("");
-  console.log(character);
-
-  let i = 0;
-  while (i < character.length) {
-    await waitForMs(100);
-    document.querySelector("#text").append(character[i]);
-    i++;
-  }
-}
-
-async function typingEffect() {
-  await deleteWord();
-  await waitForMs(500);
-  await writeWord("Aspired Web Developer");
-  await waitForMs(1500);
-  await deleteWord();
-  await waitForMs(500);
-  await writeWord("Aspired Web Designer");
-  await waitForMs(1500);
-  await deleteWord();
-  await waitForMs(500);
-  await writeWord("");
-  await waitForMs(1500);
-  await deleteWord();
-  await waitForMs(500);
-}
-
-typingEffect();
 </script>
 
 
 <style>
+.home {
+  padding-top: 10%;
+}
 #text {
   position: absolute;
   text-align: center;
   left: 0;
   width: 100%;
+  font-size: 50px;
 }
 .home {
   /* background-image: ("https://i.postimg.cc/7hrVCmVP/new-back.jpg");
@@ -81,9 +42,82 @@ typingEffect();
   height: 100vh;
 }
 
-h2 {
-  font-size: 6rem;
+@keyframes cursor {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(179, 96, 71);
+  }
+}
+@keyframes typing {
+  from {
+    width: 100%;
+  }
+  90%,
+  to {
+    width: 0;
+  }
+}
+@keyframes slide {
+  33.3333333333% {
+    font-size: 3rem;
+    letter-spacing: 3px;
+  }
+  to {
+    font-size: 0;
+    letter-spacing: 0;
+  }
+}
+.typing-slider {
+  font-family: Consolas, monospace;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+}
 
-  padding-top: 20%;
+.typing-slider p {
+  position: relative;
+  display: inline;
+  font-size: 0;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  animation: slide 15s step-start infinite;
+}
+
+.typing-slider p::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-left: 3px solid black;
+  background-color: rgba(129, 96, 69, 0.76);
+  animation: typing 5s infinite, cursor 1s infinite;
+}
+
+.typing-slider p:nth-child(1) {
+  animation-delay: 0s;
+}
+.typing-slider p:nth-child(1)::after {
+  animation-delay: 0s;
+  animation-timing-function: steps(16), step-end;
+}
+
+.typing-slider p:nth-child(2) {
+  animation-delay: 5s;
+}
+.typing-slider p:nth-child(2)::after {
+  animation-delay: 5s;
+  animation-timing-function: steps(23), step-end;
+}
+
+.typing-slider p:nth-child(3) {
+  animation-delay: 10s;
+}
+.typing-slider p:nth-child(3)::after {
+  animation-delay: 10s;
+  animation-timing-function: steps(12), step-end;
 }
 </style>

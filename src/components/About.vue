@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row clearfix">
           <!--Image Column-->
-          <div class="image-column col-md-6 col-sm-12 col-xs-12">
+          <div class="image-column col-md-6">
             <div
               class="inner-column"
               data-wow-delay="0ms"
@@ -20,22 +20,19 @@
             </div>
           </div>
           <!--Content Column-->
-          <div class="content-column col-md-6 col-sm-12 col-xs-12">
+          <div class="content-column col-md-6">
             <div class="inner-column">
               <div class="sec-title">
-                <div class="title"><h1>About Me</h1></div>
-                <h2>Aspired <br /></h2>
-              </div>
-              <div class="text">
-                I am a hard-working, passionate individual who loves to learn
-                nnew things. Although I am a soft talker, I can hold my own when
-                required. I am friendly and easy to talk to and work well in a
-                team.
-              </div>
+                <div class="about-text">
+                  <div class="title"><h1>About Me</h1></div>
+                  <h2>Aspired <br /></h2>
 
-              <a href="about.html" class="theme-btn btn-style-three"
-                >Read More</a
-              >
+                  I am a hard-working, passionate individual who loves to learn
+                  nnew things. Although I am a soft talker, I can hold my own
+                  when required. I am friendly and easy to talk to and work well
+                  in a team.
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -82,8 +79,8 @@ export default {};
 
 .about-section .image-column .inner-column {
   position: relative;
-  padding: 40px 40px 20px 0px;
-  margin-left: 50px;
+  padding: 40px 100px 20px 0px;
+  margin-left: -10px;
 }
 
 .about-section .image-column .inner-column:after {
@@ -93,6 +90,7 @@ export default {};
   top: 0px;
   left: 40px;
   bottom: 100px;
+
   z-index: -1;
   border: 2px solid #e9621eec;
 }
@@ -100,6 +98,7 @@ export default {};
 .about-section .image-column .inner-column .image img {
   position: relative;
   width: 100%;
+
   /* display: block; */
 }
 
@@ -131,6 +130,11 @@ export default {};
   border: 2px solid #e9621eec;
   font-family: "Arimo", sans-serif;
 }
+
+.about-text {
+  padding-bottom: 20%;
+}
+
 .sec-title2 {
   color: #fff;
 }

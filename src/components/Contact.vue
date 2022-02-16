@@ -1,6 +1,6 @@
 <template>
+  <!--    Contacts    -->
   <section id="contact">
-    <!--    Contacts    -->
     <section class="contact-page-sec">
       <div class="contact-title"><h1>ContactMe</h1></div>
       <div class="container">
@@ -50,41 +50,33 @@
         </div>
         <div class="row">
           <div class="col">
-            <div class="contact-page-form" method="post">
+            <div class="contact-page-form">
               <h2>Get in Touch</h2>
-              <form
-                action="https://formspree.io/f/xjvjqbag"
-                target="_blank"
-                method="post"
-              >
+              <form @submit.prevent="handleSubmit" method="post">
                 <div class="row">
                   <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single-input-field">
-                      <input type="text" placeholder="Your Name" name="name" />
+                      <lable>Name:</lable>
+                      <input type="name" required v-model="name" />
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single-input-field">
-                      <input
-                        type="email"
-                        placeholder="E-mail"
-                        name="email"
-                        required
-                      />
+                      <lable>Email:</lable>
+
+                      <input type="email" required v-model="email" />
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single-input-field">
-                      <input
-                        type="text"
-                        placeholder="Phone Number"
-                        name="phone"
-                      />
+                      <lable>Phone Number:</lable>
+                      <input type="phone" required v-model="phone" />
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single-input-field">
-                      <input type="text" placeholder="Subject" name="subject" />
+                      <lable>Subject</lable>
+                      <input type="subject" required v-model="subject" />
                     </div>
                   </div>
                   <div class="col-md-12 message-input">
@@ -133,12 +125,43 @@
         </span>
       </a>
     </div>
-    <div class="copy"><p class="copyright">Company Name © 2018</p></div>
+    <div class="copy"><p class="copyright">Company Name © 2022</p></div>
   </section>
 </template>
             
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      name: "",
+      email: "",
+      phone: "",
+      subject: "",
+    };
+  },
+
+  methods: {
+    handleSubmit() {
+      console.log(this.name, this.email, this.phone, this.subject);
+
+      fetch("http://localhost:5000/contact", {
+        method: "POST",
+        body: JSON.stringify({
+          name: this.name,
+          email: this.email,
+          phone: this.phone,
+          subject: this.subject,
+        }),
+        headers: {
+          "Content-type": "application/json; charset=UTF-8",
+        },
+      })
+        .then((response) => response.json())
+        .then((json) => alert((json.msg = "Form has been submitted.")))
+        .catch((e) => alert((e.msg = "Form has failed to submit.")));
+    },
+  },
+};
 </script>
 
 <style>
@@ -272,6 +295,7 @@ section {
   display: inline-block;
   width: 100%;
   margin-top: -80px;
+  padding-top: 10%;
 }
 
 .contact-page-form form {

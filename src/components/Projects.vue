@@ -3,33 +3,23 @@
     <div class="pr-title"><h1>Projects</h1></div>
     <main>
       <div class="grid">
-        <div class="section">
-          <img
-            src="https://i.postimg.cc/jSk2Rn3S/java-calc.png"
-            class="card-img-top"
-            alt="..."
-          />
+        <div v-for="project in projects" :key="project.id" class="section">
+          <img class="card-img-top" :src="project.img" alt="..." />
 
-          <h2>Fan Page</h2>
+          <h2>{{ project.title }}</h2>
 
           <button type="submit" class="btn">
-            <a
-              href="https://romantic-einstein-6352a3.netlify.app"
-              target="_blank"
-              >Netlify</a
-            >
+            <a :href="project.netlify" target="_blank">Netlify</a>
             <br />
           </button>
           <button type="submit" class="btn">
-            <a
-              href="https://github.com/LeighBowers/Fan-Page-JavaScrip"
-              target="_blank"
-              >Github</a
-            >
+            <a :href="project.github" target="_blank"
+              ><i class="fa fa-github"></i
+            ></a>
           </button>
         </div>
 
-        <div class="section">
+        <!-- <div class="section">
           <img
             src="https://i.postimg.cc/5tPgmgtS/Screenshot-from-2022-01-28-16-01-31.png"
             class="card-img-top"
@@ -49,9 +39,9 @@
               >Github</a
             >
           </button>
-        </div>
+        </div> -->
 
-        <div class="section">
+        <!-- <div class="section">
           <img
             src="https://i.postimg.cc/50swJ2z5/Pos.png"
             class="card-img-top"
@@ -72,9 +62,9 @@
               >Github</a
             >
           </button>
-        </div>
+        </div> -->
 
-        <div class="section">
+        <!-- <div class="section">
           <img
             src="https://i.postimg.cc/XNFCxLHc/Kanye.png"
             class="card-img-top"
@@ -95,9 +85,9 @@
               >Github</a
             >
           </button>
-        </div>
+        </div> -->
 
-        <div class="section">
+        <!-- <div class="section">
           <img
             src="https://i.postimg.cc/RZtyZjXJ/calc.png"
             class="card-img-top"
@@ -113,13 +103,26 @@
               >Github</a
             >
           </button>
-        </div>
+        </div> -->
       </div>
     </main>
   </section>
 </template>
 
 <script>
+export default {
+  data() {
+    return {
+      projects: [],
+    };
+  },
+  mounted() {
+    fetch("https://leigh-anne-api.herokuapp.com/projects")
+      .then((res) => res.json())
+      .then((data) => (this.projects = data))
+      .catch((err) => console.log(err.message));
+  },
+};
 </script>
 <style>
 .pr-title {

@@ -3,13 +3,17 @@
     <div class="test-title"><h1>Testimonials</h1></div>
     <div class="container p-5">
       <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
-        <div class="col">
+        <div
+          v-for="testimonial in testimonials"
+          :key="testimonial.id"
+          class="col"
+        >
           <div class="test-card h-100 shadow-sm">
             <div class="text-center">
               <div class="img-hover-zoom img-hover-zoom--colorize">
                 <img
                   class="shadow"
-                  src="https://i.postimg.cc/R018hJxf/1625390188691.jpg"
+                  :src="testimonial.img"
                   alt="Another Image zoom-on-hover effect"
                 />
               </div>
@@ -19,19 +23,17 @@
               <div class="clearfix mb-3"></div>
 
               <div class="my-2 text-center">
-                <h1>Alex</h1>
+                <h1>{{ testimonial.name }}</h1>
               </div>
               <div class="mb-3">
                 <h2 class="text-uppercase text-center role">
-                  Leigh-Anne is dilligent and takes pride in producing quality
-                  work. She will achieve greatness as she progresses in her
-                  career.
+                  {{ testimonial.desc }}
                 </h2>
               </div>
             </div>
           </div>
         </div>
-        <div class="col">
+        <!-- <div class="col">
           <div class="test-card h-100 shadow-sm">
             <div class="text-center">
               <div class="img-hover-zoom img-hover-zoom--colorize">
@@ -58,8 +60,8 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
+        </div> -->
+        <!-- <div class="col">
           <div class="test-card h-100 shadow-sm">
             <div class="text-center">
               <div class="img-hover-zoom img-hover-zoom--colorize">
@@ -75,7 +77,7 @@
               <div class="clearfix mb-3"></div>
 
               <div class="my-2 text-center">
-                <h1>Craige</h1>
+                <h1>Craig</h1>
               </div>
               <div class="mb-3">
                 <h2 class="text-uppercase text-center role">
@@ -86,8 +88,8 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
+        </div> -->
+        <!-- <div class="col">
           <div class="test-card h-100 shadow-sm">
             <div class="text-center">
               <div class="img-hover-zoom img-hover-zoom--colorize">
@@ -115,8 +117,8 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
+        </div> -->
+        <!-- <div class="col">
           <div class="test-card h-100 shadow-sm">
             <div class="text-center">
               <div class="img-hover-zoom img-hover-zoom--colorize">
@@ -132,7 +134,7 @@
               <div class="clearfix mb-3"></div>
 
               <div class="my-2 text-center">
-                <h1>Diago</h1>
+                <h1>Diego</h1>
               </div>
               <div class="mb-3">
                 <h2 class="text-uppercase text-center role">
@@ -143,8 +145,8 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
+        </div> -->
+        <!-- <div class="col">
           <div class="test-card h-100 shadow-sm">
             <div class="text-center">
               <div class="img-hover-zoom img-hover-zoom--colorize">
@@ -171,14 +173,27 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
 </template>
 
+
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      testimonials: [],
+    };
+  },
+  mounted() {
+    fetch("https://leigh-anne-api.herokuapp.com/testimonials")
+      .then((res) => res.json())
+      .then((data) => (this.testimonials = data))
+      .catch((err) => console.log(err.message));
+  },
+};
 </script>
 
 <style>
@@ -287,24 +302,3 @@ export default {};
   }
 }
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -125,8 +125,11 @@
               <i class="fas fa-mouse fa-3x mb-4"></i>
               <h4>Web Design</h4>
               <p>
-                Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
-                Sed id mauris vel neque
+                Prepares content for the Web. This role is mainly related to the
+                styling and layout of pages with content, including text and
+                images. Web designers use many technologies but commonly rely on
+                hypertext and hypermedia resources including HTML, CSS and
+                additional Web design tools.
               </p>
             </div>
           </div>
@@ -136,8 +139,9 @@
               <i class="fas fa-laptop-code fa-3x mb-4"></i>
               <h4>Coding</h4>
               <p>
-                Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
-                Sed id mauris vel neque
+                Designing instructions between the language we speak, and the
+                language a computer understands.writing script for a computer
+                program or mobile device.
               </p>
             </div>
           </div>
@@ -147,8 +151,8 @@
               <i class="fas fa-mobile-alt fa-3x mb-4"></i>
               <h4>App Developing</h4>
               <p>
-                Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
-                Sed id mauris vel neque
+                Creating a computer program or a set of programs to perform the
+                different tasks that is requires.
               </p>
             </div>
           </div>
@@ -158,8 +162,10 @@
               <i class="fas fa-mouse fa-3x mb-4"></i>
               <h4>Web Development</h4>
               <p>
-                Duis molestie enim mattis gravida viverra. Fusce ut eros augue.
-                Sed id mauris vel neque
+                Work in developing a website for the Internet (World Wide
+                Web).Building and maintenance of websites.Work that happens
+                behind the scenes to make a website look great, work fast and
+                perform well with a seamless user experience.
               </p>
             </div>
           </div>

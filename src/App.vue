@@ -30,8 +30,6 @@ export default {
     Testimonials,
     Contact,
     Resume,
-
-    // Sections,
   },
 };
 </script>

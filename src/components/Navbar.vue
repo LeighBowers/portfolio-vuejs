@@ -1,6 +1,6 @@
 
   <template>
-  <nav class="nav nav-static">
+  <nav class="nav nav-">
     <input type="checkbox" id="nav__checkbox" class="nav__checkbox" />
     <label for="nav__checkbox" class="nav__toggle">
       <img
@@ -11,7 +11,7 @@
     </label>
 
     <ul class="nav__menu">
-      <li><i class="far fa-id-badge"></i></li>
+      <li><i class="fas fa-bold"></i></li>
       <li><a href="#home">|Home|</a></li>
 
       <li><a href="#about">|About Me|</a></li>
@@ -34,7 +34,7 @@
 <style>
 .nav {
   width: 100%;
-  background-color: #e9621eec;
+  background-color: #e9621e69;
   z-index: 1;
   position: fixed; /* Set the navbar to fixed position */
   letter-spacing: 2px;
