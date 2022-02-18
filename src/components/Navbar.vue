@@ -11,7 +11,12 @@
     </label>
 
     <ul class="nav__menu">
-      <li><i class="fas fa-bold"></i></li>
+      <li>
+        <img
+          src="https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-l-letters-numbers-and-symbols-soft-fill-soft-fill-juicy-fish.png "
+        />
+        <img />
+      </li>
       <li><a href="#home">|Home|</a></li>
 
       <li><a href="#about">|About Me|</a></li>
