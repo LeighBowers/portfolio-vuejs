@@ -54,7 +54,7 @@
 .close,
 input[type="checkbox"] {
   display: none;
-  color: white;
+  color: rgb(10, 10, 10);
 }
 
 .nav__menu {
@@ -68,7 +68,7 @@ input[type="checkbox"] {
 li {
   list-style: none;
   display: none;
-  color: rgb(229, 228, 238);
+  color: rgb(8, 7, 8);
 }
 li:first-child {
   margin-right: auto;
@@ -76,7 +76,7 @@ li:first-child {
 }
 .nav__menu a {
   text-decoration: none;
-  color: rgb(237, 237, 245);
+  color: rgb(12, 12, 14);
   font-size: 1rem;
 }
 #nav__checkbox:checked ~ ul.nav__menu li {

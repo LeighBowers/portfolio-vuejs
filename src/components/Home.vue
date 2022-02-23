@@ -1,36 +1,145 @@
 <template>
   <section id="home">
-    <div class="content">
-      <h1>
-        TRAVELLING<br />
-        AROUND THE WORLD
-      </h1>
-      <h2>An awesome website is under construction, stay tuned.</h2>
-      <div class="arrow bounce">
-        <a class="fa fa-arrow-down" href="#"></a>
-      </div>
+    <section class="showcase-area" id="showcase">
+      <div class="showcase-container">
+        <h1 class="main-title" id="home">Leigh-Anne Bowers</h1>
+        <p>Aspired Web Developer</p>
 
-      <section class="social_icons">
-        <a href="#" title="Facebook" target="_blank"
-          ><i class="fa fa-facebook"></i
-        ></a>
-        <a href="#" title="Instagram" target="_blank"
-          ><i class="fa fa-instagram"></i
-        ></a>
-        <a href="#" title="Twitter" target="_blank"
-          ><i class="fa fa-twitter"></i
-        ></a>
-        <a href="#" title="Telegram" target="_blank"
-          ><i class="fa fa-telegram"></i
-        ></a>
-      </section>
-    </div>
+        <div class="social_links">
+          <a href="https://github.com/LeighBowers">
+            <span class="fa-stack fa-lg fb combo">
+              <i class="fa fa-circle fa-stack-2x circle"></i>
+              <i class="fa fa-github fa-stack-1x fa-inverse icon"></i>
+            </span>
+          </a>
+
+          <a href="https://codepen.io/leighbowers">
+            <span class="fa-stack fa-lg gt combo">
+              <i class="fa fa-circle fa-stack-2x circle"></i>
+              <i class="fa fa-codepen fa-stack-1x fa-inverse icon"></i>
+            </span>
+          </a>
+          <a href="https://www.linkedin.com/in/developersah/">
+            <span class="fa-stack fa-lg tw combo">
+              <i class="fa fa-circle fa-stack-2x circle"></i>
+              <i class="fa fa-linkedin fa-stack-1x fa-inverse icon"></i>
+            </span>
+          </a>
+          <!-- <a href="https://app.netlify.com/teams/leighbowers/overview">
+        <span class="fa-stack fa-lg tw combo">
+          <i class="fa fa-circle fa-stack-2x circle"></i>
+       <a href="https://iconscout.com/icons/netlify" ></a> 
+
+        </span>
+      </a> -->
+        </div>
+      </div>
+    </section>
   </section>
 </template>
 
 <script>
 </script>
 
+
+<style>
+.home {
+  /* background-image: ("https://i.postimg.cc/7hrVCmVP/new-back.jpg");
+  background: linear-gradient(blue, pink); */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.356),
+      #e9621e83
+    ),
+    url("https://i.postimg.cc/mr8vtcKP/developback.jpg");
+  background-position: cover;
+  background-size: cover;
+  height: 100vh;
+}
+/* ............//// Showcase styling ////......... */
+
+.showcase-area {
+  height: 50vh;
+  background: linear-gradient(
+      rgba(240, 240, 240, 0.144),
+      rgba(201, 139, 88, 0.377)
+    ),
+    url("https://i.postimg.cc/yd1s7V0n/devel.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.showcase-container {
+  display: flex;
+  margin-right: 40%;
+  padding-bottom: 10%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.6rem;
+}
+
+.main-title {
+  text-transform: uppercase;
+  margin-top: 1.5em;
+}
+/* footer */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+.social_links {
+  padding: 1rem;
+
+  margin-top: 2rem;
+
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.social_links .combo {
+  transform: scale(0.9);
+  transition: 0.4s ease-in;
+  margin: 0 0.5rem;
+  height: 3em;
+  width: 3em;
+  line-height: 3em;
+}
+.combo .circle {
+  color: #f9f9f9;
+  transition: 0.4s ease-in;
+  font-size: 3em;
+}
+.combo .icon {
+  color: #444343;
+  font-size: 2rem;
+  transform: translateY(1px);
+  transition: 0.2s ease-in;
+}
+.combo:hover {
+  transform: scale(1.1);
+}
+.combo:hover,
+.combo:hover .icon {
+  color: white;
+}
+
+.fb:hover,
+.fb:hover .circle {
+  color: #10151a;
+}
+
+.tw:hover,
+.tw:hover .circle {
+  color: #191f24;
+}
+.gt:hover,
+.gt:hover .circle {
+  color: #1f1f1f;
+}
+.copy {
+  margin-right: 5%;
+}
+</style>
 
 <style>
 .home {

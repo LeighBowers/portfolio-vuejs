@@ -118,12 +118,12 @@
           <i class="fa fa-linkedin fa-stack-1x fa-inverse icon"></i>
         </span>
       </a>
-      <a href="https://app.netlify.com/teams/leighbowers/overview">
+      <!-- <a href="https://app.netlify.com/teams/leighbowers/overview">
         <span class="fa-stack fa-lg tw combo">
           <i class="fa fa-circle fa-stack-2x circle"></i>
           <i class="fa fa-netlify fa-stack-1x fa-inverse icon"></i>
         </span>
-      </a>
+      </a> -->
     </div>
     <div class="copy"><p class="copyright">Company Name © 2022</p></div>
   </section>
