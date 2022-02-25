@@ -26,7 +26,7 @@
                 <h1>{{ testimonial.name }}</h1>
               </div>
               <div class="mb-3">
-                <h2 class="text-uppercase text-center role">
+                <h2 class="text text-center role">
                   {{ testimonial.desc }}
                 </h2>
               </div>
