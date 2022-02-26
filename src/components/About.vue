@@ -47,7 +47,7 @@ export default {};
 
 <style>
 .about-section {
-  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.356), #e9621e83),
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.356), #ee926783),
     url("");
   /* background-position: cover; */
   background-size: cover;

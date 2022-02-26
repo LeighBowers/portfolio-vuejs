@@ -12,11 +12,11 @@
               </div>
               <div class="content">
                 <div class="info">
-                  <span class="dark-bg">2021</span>
+                  <!-- <span class="dark-bg">2021</span>
 
                   <h6>Web Development</h6>
                   <p>Life Choices</p>
-                  <hr />
+                  <hr /> -->
                   <span class="dark-bg">July 2014-March 2015</span>
                   <h6>Social Auxiliary Work Student</h6>
                   <p>Hugenote College</p>
@@ -37,16 +37,16 @@
               </div>
               <div class="content">
                 <div class="info">
-                  <span class="dark-bg">September 2021</span>
+                  <!-- <span class="dark-bg">September 2021</span>
 
                   <h6>Life Choices Academy</h6>
                   <p>
                     Learning Modern Web Languages like HTML, CSS, JavaScrip &
                     Front End Frameworks.
                   </p>
-                  <hr />
+                  <hr /> -->
                   <span class="dark-bg">1 June 2019-June 2017</span>
-                  <h6>STEP BY STEP EDUCAREr</h6>
+                  <h6>STEP BY STEP EDUCARE</h6>
                   <p>POSITION HELD: Teachers / Intern</p>
                   <hr />
                   <span class="theme-bg">1 April 2018-15 March 2019</span>
@@ -206,7 +206,7 @@ export default {};
   bottom: 7px;
   width: 40px;
   height: 1px;
-  background-color: #d66e28;
+  background-color: #e9621eec;
 }
 
 .edu-container {
@@ -222,7 +222,7 @@ export default {};
 .edu-container .header .name {
   display: block;
   font-size: 18px;
-  color: rgb(223, 115, 26);
+  color: rgb(24, 23, 23);
 }
 
 .edu-container.header .position {

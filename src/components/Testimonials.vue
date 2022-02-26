@@ -229,7 +229,7 @@ export default {
 }
 
 .test-card {
-  background: #9e9090bd;
+  background: #d67442a2;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
   border: 1;
   border-radius: 1rem;
