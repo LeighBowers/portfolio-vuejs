@@ -12,9 +12,8 @@
 
     <ul class="nav__menu">
       <li>
-        <img
-          src="https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-l-letters-numbers-and-symbols-soft-fill-soft-fill-juicy-fish.png "
-        />
+        <img src="https://img.icons8.com/wired/64/000000/l.png" />
+
         <img />
       </li>
       <li><a href="#home">|Home|</a></li>
@@ -62,7 +61,7 @@ input[type="checkbox"] {
   flex-direction: column;
   gap: 6rem;
   align-items: center;
-  margin: 1rem;
+  margin: 0.1rem;
 }
 
 li {

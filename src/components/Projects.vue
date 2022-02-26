@@ -10,12 +10,10 @@
 
           <button type="submit" class="btn">
             <a :href="project.netlify" target="_blank">Netlify</a>
-            <br />
+            <!-- <br /> -->
           </button>
           <button type="submit" class="btn">
-            <a :href="project.github" target="_blank"
-              ><i class="fa fa-github"></i
-            ></a>
+            <a :href="project.github" target="_blank">Github </a>
           </button>
         </div>
 
@@ -163,7 +161,7 @@ main {
   margin: 0 1em;
   padding: 3em;
   border-radius: 3px;
-  border: 1px solid rgba(182, 101, 35, 0.7);
+  border: 1px solid rgba(156, 175, 172, 0.7);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
 }
 
@@ -191,7 +189,7 @@ main {
   padding: 2em;
   text-align: center;
   color: #080808;
-  background: linear-gradient(45deg, #b89064, #f0d0b2, #dda863a8);
+  background: linear-gradient(45deg, #b89064, #f0d0b2, #946e3da8);
   border-radius: 3px;
   border: 2px solid rgba(230, 111, 31, 0.7);
   opacity: 0.8;
@@ -208,7 +206,7 @@ main {
   outline: 0;
   padding: 12px;
   color: white;
-  background-image: linear-gradient(to right, #e98c36, #caa061);
+  background-image: linear-gradient(to right, #e96f36, #c48a64);
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -217,7 +215,7 @@ main {
 }
 
 .section button:hover {
-  background-color: rgb(196, 146, 89);
-  background-image: linear-gradient(to left, #a87234, #926b52);
+  background-color: rgb(136, 124, 109);
+  background-image: linear-gradient(to left, #ca822f, #926b52);
 }
 </style>
