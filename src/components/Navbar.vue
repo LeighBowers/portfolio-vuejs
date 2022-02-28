@@ -12,7 +12,7 @@
 
     <ul class="nav__menu">
       <li>
-        <img src="https://img.icons8.com/wired/64/000000/l.png" />
+        <img src="https://img.icons8.com/ios/50/000000/l.png" />
 
         <img />
       </li>
@@ -38,7 +38,7 @@
 <style>
 .nav {
   width: 100%;
-  background-color: #e9621e69;
+  background-color: #796b6469;
   z-index: 1;
   position: fixed; /* Set the navbar to fixed position */
   letter-spacing: 2px;
@@ -61,7 +61,7 @@ input[type="checkbox"] {
   flex-direction: column;
   gap: 6rem;
   align-items: center;
-  margin: 0.1rem;
+  margin: 0.4rem;
 }
 
 li {

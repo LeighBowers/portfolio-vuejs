@@ -19,7 +19,7 @@
               <i class="fa fa-codepen fa-stack-1x fa-inverse icon"></i>
             </span>
           </a>
-          <a href="https://www.linkedin.com/in/developersah/">
+          <a href="https://www.linkedin.com/in/leigh-anne-sylvester-2752a421a/">
             <span class="fa-stack fa-lg tw combo">
               <i class="fa fa-circle fa-stack-2x circle"></i>
               <i class="fa fa-linkedin fa-stack-1x fa-inverse icon"></i>
