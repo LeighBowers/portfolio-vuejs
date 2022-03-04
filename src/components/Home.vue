@@ -43,26 +43,11 @@
 
 
 <style>
-.home {
-  /* background-image: ("https://i.postimg.cc/7hrVCmVP/new-back.jpg");
-  background: linear-gradient(blue, pink); */
-  background-image: linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0.356),
-      #e9621e83
-    ),
-    url("https://i.postimg.cc/mr8vtcKP/developback.jpg");
-  background-position: cover;
-  background-size: cover;
-  height: 100vh;
-}
-/* ............//// Showcase styling ////......... */
-
 .showcase-area {
-  height: 50vh;
+  height: 100vh;
   background: linear-gradient(
       rgba(240, 240, 240, 0.144),
-      rgba(201, 139, 88, 0.377)
+      rgba(88, 118, 201, 0.377)
     ),
     url("https://i.postimg.cc/yd1s7V0n/devel.jpg");
   background-size: cover;

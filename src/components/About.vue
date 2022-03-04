@@ -47,7 +47,7 @@ export default {};
 
 <style>
 .about-section {
-  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.356), #ee926783),
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.356), #67a1ee83),
     url("");
   /* background-position: cover; */
   background-size: cover;
@@ -92,7 +92,7 @@ export default {};
   bottom: 100px;
 
   z-index: -1;
-  border: 2px solid #e9621eec;
+  border: 2px solid #424246ec;
 }
 
 .about-section .image-column .inner-column .image img {
@@ -112,24 +112,6 @@ export default {};
   bottom: -10px;
   /* background: url(https://i.ibb.co/DKn55Qz/pattern-1.jpg) repeat; */
 }
-.about-section .btn-style-three:hover {
-  color: #ffffff;
-  background: #e9621eec;
-}
-.about-section .btn-style-three {
-  position: relative;
-  line-height: 24px;
-  color: #252525;
-  font-size: 15px;
-  font-weight: 700;
-  background: none;
-  /* display: inline-block; */
-  padding: 11px 40px;
-  background-color: #ffffff;
-  text-transform: capitalize;
-  border: 2px solid #e9621eec;
-  font-family: "Arimo", sans-serif;
-}
 
 .about-text {
   padding-bottom: 20%;
@@ -144,7 +126,7 @@ export default {};
 }
 .sec-title .title {
   position: relative;
-  color: #e9621eec;
+  color: #12777eec;
   font-size: 18px;
   font-weight: 700;
   padding-right: 50px;
@@ -159,7 +141,7 @@ export default {};
   bottom: 7px;
   width: 40px;
   height: 1px;
-  background-color: #d66e28;
+  background-color: #12777eec;
 }
 /* experience */
 </style>

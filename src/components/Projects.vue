@@ -129,7 +129,7 @@ export default {
 }
 .pr-title {
   position: relative;
-  color: #e9621eec;
+  color: #12777eec;
   font-size: 18px;
   font-weight: 700;
   padding-right: 50px;
@@ -144,7 +144,7 @@ export default {
   bottom: 5px;
   width: 40px;
   height: 1px;
-  background-color: #d66e28;
+  background-color: #12777eec;
 }
 
 main {
@@ -179,25 +179,27 @@ main {
   padding: 0 1em;
   max-width: 100%;
   display: grid;
-  grid-auto-rows: max-content;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-columns: 200px 200px 200px;
+  /* grid-auto-rows: max-content; */
   grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
   grid-gap: 1em;
 }
 
 .section {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 8px 0 rgba(170, 158, 158, 0.6);
   padding: 2em;
   text-align: center;
   color: #080808;
-  background: linear-gradient(45deg, #b89064, #f0d0b2, #946e3da8);
+  background: linear-gradient(45deg, #a8b1c4, #d3cbc78c);
   border-radius: 3px;
-  border: 2px solid rgba(230, 111, 31, 0.7);
+  border: 2px solid rgba(77, 95, 201, 0.7);
   opacity: 0.8;
 }
 
 .section:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
-  border: 2px solid rgb(206, 129, 28);
+  box-shadow: 0 4px 8px 0 rgba(27, 31, 97, 0.9);
+  border: 2px solid rgb(190, 186, 179);
   opacity: 1;
 }
 
@@ -206,7 +208,7 @@ main {
   outline: 0;
   padding: 12px;
   color: white;
-  background-image: linear-gradient(to right, #e96f36, #c48a64);
+  background-image: linear-gradient(to right, #f7e7e0, #64a9c4);
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -216,6 +218,6 @@ main {
 
 .section button:hover {
   background-color: rgb(136, 124, 109);
-  background-image: linear-gradient(to left, #ca822f, #926b52);
+  background-image: linear-gradient(to left, #9c948a, #526692);
 }
 </style>

@@ -174,7 +174,7 @@ export default {
 }
 .contact-title {
   position: relative;
-  color: #e9621eec;
+  color: #12777eec;
   font-size: 18px;
   font-weight: 700;
   padding-right: 50px;
@@ -189,7 +189,7 @@ export default {
   bottom: 7px;
   width: 40px;
   height: 1px;
-  background-color: #d66e28;
+  background-color: #12777eec;
 }
 section {
   padding: 60px 0;
@@ -209,7 +209,7 @@ section {
   padding: 30px 0px;
 }
 .contact-page-sec .contact-page-form h2 {
-  color: #071c34;
+  color: #12777eec;
   text-transform: capitalize;
   font-size: 22px;
   font-weight: 700;
@@ -227,20 +227,20 @@ section {
 
 .contact-info-icon i {
   font-size: 48px;
-  color: #e9621eec;
+  color: #12777eec;
 }
 .contact-info-text p {
   margin-bottom: 0px;
 }
 .contact-info-text h2 {
-  color: #fff;
+  color: rgb(49, 45, 45);
   font-size: 22px;
   text-transform: capitalize;
   font-weight: 600;
   margin-bottom: 10px;
 }
 .contact-info-text span {
-  color: #999999;
+  color: #353131;
   font-size: 16px;
   /* font-weight: ; */
   display: inline-block;
@@ -270,7 +270,7 @@ section {
   border-radius: 4px;
 }
 .single-input-fieldsbtn input[type="submit"] {
-  background: #e9621eec none repeat scroll 0 0;
+  background: #12777eec none repeat scroll 0 0;
   color: #fff;
   display: inline-block;
   font-weight: 600;

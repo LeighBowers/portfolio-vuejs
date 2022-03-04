@@ -191,7 +191,7 @@ export default {};
 }
 .res-title {
   position: relative;
-  color: #e9621eec;
+  color: #12777eec;
   font-size: 18px;
   font-weight: 700;
   padding-right: 50px;
@@ -206,16 +206,16 @@ export default {};
   bottom: 7px;
   width: 40px;
   height: 1px;
-  background-color: #e9621eec;
+  background-color: #12777eec;
 }
 
 .edu-container {
   background: #fff none repeat scroll 0% 0%;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(214, 200, 200, 0.548);
 }
 .edu-container .header {
   padding: 5px;
-  border-top: 5px solid #e9621eec;
+  border-top: 5px solid #4d4440ec;
   border-bottom: 1px solid #ddd;
 }
 
@@ -270,7 +270,7 @@ export default {};
 /*Edit here for html*/
 .bar-fill-html {
   width: 90%;
-  background-color: #e9621eec;
+  background-color: #434549ec;
   animation: bar-fill-html 2s ease-out;
   -moz-animation: bar-fill-html 2s ease-out;
   -webkit-animation: bar-fill-html 2s ease-out;
@@ -305,7 +305,7 @@ export default {};
 /*Edit here for Javascript*/
 .bar-fill-css {
   width: 60%;
-  background-color: #e9621eec;
+  background-color: #1c192eec;
   animation: bar-fill-css 2s ease-out;
   -moz-animation: bar-fill-css 2s ease-out;
   -webkit-animation: bar-fill-css 2s ease-out;
@@ -340,7 +340,7 @@ export default {};
 /* end */
 .bar-fill-javascript {
   width: 70%;
-  background-color: #e9621eec;
+  background-color: #30384eec;
   animation: bar-fill-javascript 2s ease-out;
   -moz-animation: bar-fill-javascrip 2s ease-out;
   -webkit-animation: bar-fill-javascript 2s ease-out;
@@ -374,7 +374,7 @@ export default {};
 }
 .bar-fill-bootstrap {
   width: 70%;
-  background-color: #e9621eec;
+  background-color: #20263aec;
   animation: bar-fill-bootstrap 2s ease-out;
   -moz-animation: bar-fill-botstrap 2s ease-out;
   -webkit-animation: bar-fill-bootstrap 2s ease-out;
@@ -414,7 +414,7 @@ export default {};
 }
 .skill-title {
   position: relative;
-  color: #e9621eec;
+  color: #12777eec;
   font-size: 18px;
   font-weight: 700;
   padding-right: 50px;
@@ -429,7 +429,7 @@ export default {};
   bottom: 7px;
   width: 40px;
   height: 1px;
-  background-color: #e9621eec;
+  background-color: #12777eec;
 }
 main {
   margin: 5em 5em;
@@ -445,7 +445,7 @@ main {
   margin: 0 1em;
   padding: 3em;
   border-radius: 3px;
-  border: 1px solid #e9621eec;
+  border: 1px solid #12777eec;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
 }
 
@@ -471,7 +471,7 @@ main {
   padding: 2em;
   text-align: center;
   color: #080808;
-  background: linear-gradient(45deg, #d6926b, #ddf0b2, #dfa576);
+  background: linear-gradient(45deg, #5fa5aaec, #7f857b, #6cbac0ec);
   border-radius: 3px;
   border: 2px solid rgba(56, 54, 56, 0.644);
   opacity: 0.8;
@@ -479,7 +479,7 @@ main {
 
 .box:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
-  border: 2px solid rgb(212, 121, 16);
+  border: 2px solid rgba(4, 13, 61, 0.74);
   opacity: 1;
 }
 </style>

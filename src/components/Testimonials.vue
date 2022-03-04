@@ -206,7 +206,7 @@ export default {
 }
 .test-title {
   position: relative;
-  color: #e9621eec;
+  color: #12777eec;
   font-size: 18px;
   font-weight: 700;
   padding-right: 50px;
@@ -221,7 +221,7 @@ export default {
   bottom: 7px;
   width: 40px;
   height: 1px;
-  background-color: #d66e28;
+  background-color: #12777eec;
 }
 
 .container-fluid {
@@ -229,7 +229,7 @@ export default {
 }
 
 .test-card {
-  background: #d67442a2;
+  background: #4293d68c;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
   border: 1;
   border-radius: 1rem;

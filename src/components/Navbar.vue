@@ -1,5 +1,5 @@
 
-  <template>
+   <template>
   <nav class="nav nav-">
     <input type="checkbox" id="nav__checkbox" class="nav__checkbox" />
     <label for="nav__checkbox" class="nav__toggle">
@@ -49,13 +49,11 @@
   margin: 2rem 1rem;
   right: 0;
 }
-
 .close,
 input[type="checkbox"] {
   display: none;
   color: rgb(10, 10, 10);
 }
-
 .nav__menu {
   display: flex;
   flex-direction: column;
@@ -63,7 +61,6 @@ input[type="checkbox"] {
   align-items: center;
   margin: 0.4rem;
 }
-
 li {
   list-style: none;
   display: none;
@@ -90,7 +87,6 @@ li:first-child {
 #nav__checkbox:checked ~ label.nav__toggle .close {
   display: block;
 }
-
 @media only screen and (min-width: 768px) {
   .nav__toggle {
     display: none;
