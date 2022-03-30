@@ -16,17 +16,17 @@
 
         <img />
       </li>
-      <li><a href="#home">|Home|</a></li>
+      <li><a href="#home">Home</a></li>
 
-      <li><a href="#about">|About Me|</a></li>
+      <li><a href="#about">About Me</a></li>
 
-      <li><a href="#resume">|Resume|</a></li>
+      <li><a href="#resume">Resume</a></li>
 
-      <li><a href="#projects">|Projects|</a></li>
+      <li><a href="#projects">Projects</a></li>
 
-      <li><a href="#testimonials">|Testimonials|</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
 
-      <li><a href="#contact">|Contact Me|</a></li>
+      <li><a href="#contact">Contact Me</a></li>
     </ul>
   </nav>
 </template>
@@ -36,12 +36,25 @@
 </script>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  list-style: none;
+  font-family: "Arvo", serif;
+  transition: all 0.3s linear;
+}
 .nav {
   width: 100%;
-  background-color: #796b6469;
+  /* background-color: #74341469; */
   z-index: 1;
   position: fixed; /* Set the navbar to fixed position */
   letter-spacing: 2px;
+  position: fixed;
+  background: #25273fa9;
 }
 .nav__toggle {
   position: absolute;
@@ -55,12 +68,24 @@ input[type="checkbox"] {
   color: rgb(10, 10, 10);
 }
 .nav__menu {
+  font-weight: bold;
   display: flex;
   flex-direction: column;
   gap: 6rem;
   align-items: center;
   margin: 0.4rem;
 }
+.nav__menu li:hover {
+  /* color: #813340; */
+  background: #213561c0;
+  color: #edf2f4;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+}
+
 li {
   list-style: none;
   display: none;
