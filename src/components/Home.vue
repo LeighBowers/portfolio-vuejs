@@ -2,9 +2,28 @@
   <section id="home">
     <section class="showcase-area" id="showcase">
       <div class="showcase-container">
-        <h1 class="main-title" id="home">Leigh-Anne Bowers</h1>
-        <p>Aspired Web Developer</p>
-
+        <div class="container">
+          <div class="row">
+            <h1 class="main-title" id="home">Leigh-Anne Bowers</h1>
+            <h3 class="animate-charcter">Aspired Web Developer</h3>
+          </div>
+        </div>
+        <!-- <h1 class="main-title" id="home">Leigh-Anne Bowers</h1>
+        <p>Aspired Web Developer</p> -->
+        <!-- /////////////// -->
+        <!-- <div class="container">
+          <svg viewBox="0 0 1000 400">
+            <text id="mytext" x="50%" y="50%" text-anchor="middle" fill="none">
+              <p>Aspired Web Developer</p>
+            </text>
+            <use xlink:href="#mytext" class="copy copy1"></use>
+            <use xlink:href="#mytext" class="copy copy2"></use>
+            <use xlink:href="#mytext" class="copy copy3"></use>
+            <use xlink:href="#mytext" class="copy copy4"></use>
+            <use xlink:href="#mytext" class="copy copy5"></use>
+          </svg>
+        </div> -->
+        <!-- ///////////////////// -->
         <div class="social_links">
           <a href="https://github.com/LeighBowers">
             <span class="fa-stack fa-lg fb combo">
@@ -43,6 +62,35 @@
 
 
 <style>
+/* animation */
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #3d0d3f 0%,
+    #118032 29%,
+    #114d7e 67%,
+    #265088 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 30px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
 .showcase-area {
   height: 100vh;
   background: linear-gradient(
@@ -68,7 +116,7 @@
 
 .main-title {
   text-transform: uppercase;
-  margin-top: 1.5em;
+  margin-top: 2.8em;
 }
 /* footer */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
@@ -121,244 +169,8 @@
 .gt:hover .circle {
   color: #1f1f1f;
 }
-.copy {
+/* .copy {
   margin-right: 5%;
-}
+} */
 </style>
 
-<style>
-.home {
-  /* background-image: ("https://i.postimg.cc/7hrVCmVP/new-back.jpg");
-  background: linear-gradient(blue, pink); */
-  background-image: linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0.356),
-      #e9621e83
-    ),
-    url("https://i.postimg.cc/d3bng3ff/newbackground.jpg");
-  background-position: cover;
-  background-size: cover;
-  height: 100vh;
-}
-.content {
-  width: 70%;
-  text-align: center;
-}
-
-.content .logo {
-  width: 13%;
-  position: absolute;
-  top: 1rem;
-  left: 2vw;
-}
-
-.content h1 {
-  font-size: 4.5em;
-  font-family: "Raleway", sans-serif;
-  font-weight: 900;
-}
-
-.content h2 {
-  position: relative;
-  top: -30px;
-  font-weight: 200;
-}
-
-.content .social_icons {
-  position: fixed;
-  right: 2vw;
-  bottom: 2vh;
-}
-
-.content .social_icons:before {
-  content: "";
-  width: 1px;
-  height: 100%;
-  background-color: var(--white);
-  position: absolute;
-  top: -100%;
-}
-
-.content .social_icons a {
-  margin: 10px 0px;
-  color: var(--white);
-  display: block;
-  text-decoration: none;
-  font-size: 1.5em;
-  transition: 0.5s;
-}
-
-.content .social_icons a:hover {
-  color: var(--primary);
-}
-
-.arrow {
-  text-align: center;
-  margin: 1% 0;
-}
-.arrow .fa {
-  color: var(--white);
-  font-weight: 200;
-  text-decoration: none;
-}
-.bounce {
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-}
-@-webkit-keyframes bounce {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
-@keyframes bounce {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
-
-.content .button {
-  position: relative;
-  top: -10px;
-}
-
-.searchBox {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  border-radius: 40px;
-  padding: 5px 10px;
-  display: flex;
-}
-
-.searchBox:hover > .searchInput {
-  width: 240px;
-  padding: 10px;
-}
-
-.searchBox:hover > .searchButton {
-  background: white;
-  color: #2f3640;
-}
-
-.searchBox:hover {
-  background: #2f3640;
-}
-
-.searchBox:hover > .searchButton:hover {
-  background-color: var(--primary);
-  border: 1px solid var(--primary);
-  color: var(--white);
-}
-
-.searchButton {
-  color: white;
-  float: right;
-  width: auto;
-  padding: 10px 20px;
-  border-radius: 40px;
-  background: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.4s;
-  border: 0;
-  font-style: normal !important;
-  font-weight: 600;
-  text-align: center;
-  border: 1px solid var(--white);
-}
-
-.searchInput {
-  border: none;
-  background: none;
-  outline: none !important;
-  float: left;
-  padding: 0;
-  color: white;
-  font-size: 16px;
-  transition: 0.4s;
-  width: 0px;
-}
-
-@media screen and (max-width: 1020px) {
-  .content h1 {
-    font-size: 2em;
-  }
-  .content h2 {
-    position: relative;
-    top: -10px;
-  }
-}
-
-@media screen and (max-width: 820px) {
-  .content {
-    width: 100%;
-    padding: 1rem;
-  }
-  .content .logo {
-    width: 20%;
-  }
-  .content h1 {
-    font-size: 1.5em;
-  }
-  .content h2 {
-    position: relative;
-    top: -10px;
-  }
-  .content .social_icons {
-    position: absolute;
-    width: 100%;
-    right: 0vw;
-    bottom: 1vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .content .social_icons a {
-    margin: 0 15px;
-  }
-
-  .content .social_icons:before {
-    content: "";
-    width: 0px;
-    height: 0%;
-    top: 00%;
-  }
-
-  .searchBox:hover > .searchInput {
-    max-width: 90%;
-    width: 90%;
-    padding: 5px 6px;
-  }
-  .searchBox:hover > .searchButton {
-    font-size: 13px;
-    white-space: nowrap;
-  }
-  .searchBox:hover {
-    display: flex;
-    width: 100%;
-  }
-}
-</style>
