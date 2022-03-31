@@ -85,7 +85,7 @@
             <div class="css">
               <p class="bar-title">
                 CSS
-                <span class="percent align-right">60%</span>
+                <span class="percent align-right">80%</span>
               </p>
               <div class="bar">
                 <div class="bar-fill bar-fill-css start"></div>
@@ -94,7 +94,7 @@
             <div class="javascript">
               <p class="bar-title">
                 Javascript
-                <span class="percent align-right">70%</span>
+                <span class="percent align-right">60%</span>
               </p>
               <div class="bar">
                 <div class="bar-fill bar-fill-javascript start"></div>
@@ -103,10 +103,28 @@
             <div class="bootstrap">
               <p class="bar-title">
                 Bootstrap
-                <span class="percent align-right">90%</span>
+                <span class="percent align-right">70%</span>
               </p>
               <div class="bar">
                 <div class="bar-fill bar-fill-bootstrap start"></div>
+              </div>
+            </div>
+            <div class="vue">
+              <p class="bar-title">
+                Vuejs, Express, Node
+                <span class="percent align-right">60%</span>
+              </p>
+              <div class="bar">
+                <div class="bar-fill bar-fill-vue start"></div>
+              </div>
+            </div>
+            <div class="mysql">
+              <p class="bar-title">
+                MYSQL Database
+                <span class="percent align-right">50%</span>
+              </p>
+              <div class="bar">
+                <div class="bar-fill bar-fill-mysql start"></div>
               </div>
             </div>
           </div>
@@ -305,7 +323,7 @@ export default {};
 }
 /*Edit here for Javascript*/
 .bar-fill-css {
-  width: 60%;
+  width: 80%;
   background-color: #1c192eec;
   animation: bar-fill-css 2s ease-out;
   -moz-animation: bar-fill-css 2s ease-out;
@@ -340,7 +358,7 @@ export default {};
 }
 /* end */
 .bar-fill-javascript {
-  width: 70%;
+  width: 60%;
   background-color: #30384eec;
   animation: bar-fill-javascript 2s ease-out;
   -moz-animation: bar-fill-javascrip 2s ease-out;
@@ -375,6 +393,74 @@ export default {};
 }
 .bar-fill-bootstrap {
   width: 70%;
+  background-color: #20263aec;
+  animation: bar-fill-bootstrap 2s ease-out;
+  -moz-animation: bar-fill-botstrap 2s ease-out;
+  -webkit-animation: bar-fill-bootstrap 2s ease-out;
+}
+@keyframes bar-fill-bootstrap {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+@-moz-keyframes bar-fill-bootstrap {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+@-webkit-keyframes bar-fill-bootstrap {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+.bar-fill-vue {
+  width: 60%;
+  background-color: #20263aec;
+  animation: bar-fill-bootstrap 2s ease-out;
+  -moz-animation: bar-fill-botstrap 2s ease-out;
+  -webkit-animation: bar-fill-bootstrap 2s ease-out;
+}
+@keyframes bar-fill-bootstrap {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+@-moz-keyframes bar-fill-bootstrap {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+@-webkit-keyframes bar-fill-bootstrap {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+.bar-fill-mysql {
+  width: 50%;
   background-color: #20263aec;
   animation: bar-fill-bootstrap 2s ease-out;
   -moz-animation: bar-fill-botstrap 2s ease-out;

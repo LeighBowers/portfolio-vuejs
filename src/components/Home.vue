@@ -45,12 +45,11 @@
             </span>
           </a>
           <!-- <a href="https://app.netlify.com/teams/leighbowers/overview">
-        <span class="fa-stack fa-lg tw combo">
-          <i class="fa fa-circle fa-stack-2x circle"></i>
-       <a href="https://iconscout.com/icons/netlify" ></a> 
-
-        </span>
-      </a> -->
+            <span class="fa-stack fa-lg tw combo">
+              <i class="fa fa-circle fa-stack-2x circle"></i>
+              <a href="https://iconscout.com/icons/netlify"></a>
+            </span>
+          </a> -->
         </div>
       </div>
     </section>
@@ -114,6 +113,7 @@
   justify-content: center;
   height: 100%;
   font-size: 1.6rem;
+  padding: 0%;
 }
 
 .main-title {

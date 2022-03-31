@@ -34,6 +34,18 @@
                 new things. Although I am a soft talker, I can hold my own when
                 required. I am friendly and easy to talk to and work well in a
                 team.
+                <div class="single-input-fieldsbtn">
+                  <button
+                    type="button"
+                    class="btn btn-dark btn-lg btn-block mt-2"
+                  >
+                    <a
+                      target="_blank"
+                      href="_https://docs.google.com/document/d/1ZeFR0MZMGA-rN6kjkbxvqIJ_jpeBz9-V/edit"
+                      >SEE MORE</a
+                    >
+                  </button>
+                </div>
               </div>
             </div>
           </div>
