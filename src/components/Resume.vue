@@ -181,9 +181,10 @@ export default {};
 
 <style>
 /* experience */
-.resume {
-  margin-top: 20%;
+#resume {
+  /* margin-top: 20%; */
   width: 100%;
+  font-family: "Arvo", serif;
 }
 .res-title {
   position: relative;

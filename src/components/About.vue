@@ -25,13 +25,15 @@
               <div class="sec-title">
                 <div class="about-text">
                   <div class="title"><h1>About Me</h1></div>
-                  <h2>Aspired <br /></h2>
-
-                  I am a hard-working, passionate individual who loves to learn
-                  nnew things. Although I am a soft talker, I can hold my own
-                  when required. I am friendly and easy to talk to and work well
-                  in a team.
+                  <h2>Bio <br /></h2>
+                  Full name: Leigh-Anne Bowers Date of birth: 10/09/1993 Gender:
+                  Female Location: Bonteheuwel Cell Phone number: 0658820592
+                  Email Address: leighsylvester9@gmail.com GitHub: LeighBowers
                 </div>
+                I am a hard-working, passionate individual who loves to learn
+                new things. Although I am a soft talker, I can hold my own when
+                required. I am friendly and easy to talk to and work well in a
+                team.
               </div>
             </div>
           </div>
@@ -52,6 +54,7 @@ export default {};
   /* background-position: cover; */
   background-size: cover;
   height: 100vh;
+  font-family: "Arvo", serif;
 }
 .about-section {
   /* position: relative; */

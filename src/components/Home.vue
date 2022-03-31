@@ -61,7 +61,8 @@
 </script>
 
 
-<style>
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 /* animation */
 .animate-charcter {
   text-transform: uppercase;
@@ -77,7 +78,6 @@
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
@@ -101,6 +101,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 0;
+  font-family: "Arvo", serif;
 }
 
 .showcase-container {
@@ -119,7 +121,6 @@
   margin-top: 2.8em;
 }
 /* footer */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 
 .social_links {
   padding: 1rem;

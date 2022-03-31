@@ -35,7 +35,8 @@
 <script>
 </script>
 
-<style>
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -79,13 +80,12 @@ input[type="checkbox"] {
   /* color: #813340; */
   background: #213561c0;
   color: #edf2f4;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 0.8rem;
-  border-radius: 0.5rem;
+  border-radius: 0.1rem;
   padding: 0.5rem 1.5rem;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
-
 li {
   list-style: none;
   display: none;

@@ -199,6 +199,7 @@ export default {
 <style>
 #testimonials {
   margin-top: -100px;
+  font-family: "Arvo", serif;
 }
 .test-title {
   position: relative;

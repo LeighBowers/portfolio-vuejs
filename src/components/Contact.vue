@@ -167,6 +167,7 @@ export default {
 <style>
 #contact {
   margin-top: -100px;
+  font-family: "Arvo", serif;
 }
 .contact-title {
   position: relative;

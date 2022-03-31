@@ -16,6 +16,92 @@
             <a :href="project.github" target="_blank">Github </a>
           </button>
         </div>
+
+        <!-- <div class="section">
+          <img
+            src="https://i.postimg.cc/5tPgmgtS/Screenshot-from-2022-01-28-16-01-31.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <h2>Reaction Timer</h2>
+
+          <button type="submit" class="btn">
+            <a href="https://reaction-project.netlify.app" target="_blank"
+              >Netlify</a
+            >
+          </button>
+          <button type="submit" class="btn">
+            <a
+              href="https://github.com/LeighBowers/reaction-timer-"
+              target="_blank"
+              >Github</a
+            >
+          </button>
+        </div> -->
+
+        <!-- <div class="section">
+          <img
+            src="https://i.postimg.cc/50swJ2z5/Pos.png"
+            class="card-img-top"
+            alt="..."
+          />
+
+          <h2>POS Project</h2>
+
+          <button type="submit" class="btn">
+            <a
+              href="https://app.netlify.com/sites/pos-project-java/settings/general"
+              target="_blank"
+              >Netlify</a
+            >
+          </button>
+          <button type="submit" class="btn">
+            <a href="https://github.com/LeighBowers/POS-Project" target="_blank"
+              >Github</a
+            >
+          </button>
+        </div> -->
+
+        <!-- <div class="section">
+          <img
+            src="https://i.postimg.cc/XNFCxLHc/Kanye.png"
+            class="card-img-top"
+            alt="..."
+          />
+
+          <h2>Kanya Fetch Project</h2>
+
+          <button type="submit" class="btn">
+            <a href="https://kanye-fetch.netlify.app" target="_blank"
+              >Netlify</a
+            >
+          </button>
+          <button type="submit" class="btn">
+            <a
+              href="https://github.com/LeighBowers/Kanya-West-Task"
+              target="_blank"
+              >Github</a
+            >
+          </button>
+        </div> -->
+
+        <!-- <div class="section">
+          <img
+            src="https://i.postimg.cc/RZtyZjXJ/calc.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <h2>Calculator Javascript</h2>
+          <button type="submit" class="btn">
+            <a href="https://java-cal.netlify.app" target="_blank">Netlify</a>
+          </button>
+          <br />
+          <button type="submit" class="btn">
+            <a href="https://github.com/LeighBowers/Calculator" target="_blank"
+              >Github</a
+            >
+          </button>
+        </div> -->
       </div>
     </main>
   </section>
@@ -87,6 +173,7 @@ main {
 }
 #projects {
   margin-top: -200px;
+  font-family: "Arvo", serif;
 }
 .grid {
   margin: 5em auto;
