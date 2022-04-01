@@ -56,26 +56,26 @@
                 <div class="row">
                   <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single-input-field">
-                      <lable>Name:</lable>
+                      <lable><strong>Name:</strong></lable>
                       <input type="name" required v-model="name" />
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single-input-field">
-                      <lable>Email:</lable>
+                      <lable><strong>Email:</strong></lable>
 
                       <input type="email" required v-model="email" />
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single-input-field">
-                      <lable>Phone Number:</lable>
+                      <lable><strong>Phone Number:</strong></lable>
                       <input type="phone" required v-model="phone" />
                     </div>
                   </div>
                   <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="single-input-field">
-                      <lable>Subject</lable>
+                      <lable><strong>Subject</strong></lable>
                       <input type="subject" required v-model="subject" />
                     </div>
                   </div>

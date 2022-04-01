@@ -26,22 +26,32 @@
                 <div class="about-text">
                   <div class="title"><h1>About Me</h1></div>
                   <h2>Bio <br /></h2>
-                  Full name: Leigh-Anne Bowers Date of birth: 10/09/1993 Gender:
-                  Female Location: Bonteheuwel Cell Phone number: 0658820592
-                  Email Address: leighsylvester9@gmail.com GitHub: LeighBowers
+
+                  <ul class="with-marker">
+                    <li>Full name: Leigh-Anne Bowers</li>
+
+                    <li>Date of birth: 10/09/1993</li>
+
+                    <li>Gender: Female</li>
+
+                    <li>Location: Bonteheuwel</li>
+
+                    <li>Cell Phone number: 0658820592</li>
+
+                    <li>Email Address: leighsylvester9@gmail.com</li>
+
+                    <li>GitHub: LeighBowers</li>
+                  </ul>
                 </div>
                 I am a hard-working, passionate individual who loves to learn
                 new things. Although I am a soft talker, I can hold my own when
                 required. I am friendly and easy to talk to and work well in a
                 team.
                 <div class="single-input-fieldsbtn">
-                  <button
-                    type="button"
-                    class="btn btn-dark btn-lg btn-block mt-2"
-                  >
+                  <button type="button" class="btn btn-dark">
                     <a
                       target="_blank"
-                      href="_https://docs.google.com/document/d/1ZeFR0MZMGA-rN6kjkbxvqIJ_jpeBz9-V/edit"
+                      href="https://docs.google.com/document/d/1ZeFR0MZMGA-rN6kjkbxvqIJ_jpeBz9-V/edit"
                       >SEE MORE</a
                     >
                   </button>
@@ -70,7 +80,7 @@ export default {};
 }
 .about-section {
   /* position: relative; */
-  padding: 120px 0px;
+  padding: 0%;
 }
 
 .about-section .content-column {
@@ -129,7 +139,7 @@ export default {};
 }
 
 .about-text {
-  padding-bottom: 20%;
+  padding-bottom: -15%;
 }
 
 .sec-title2 {
@@ -158,5 +168,7 @@ export default {};
   height: 1px;
   background-color: #12777eec;
 }
-/* experience */
+.single-input-fieldsbtn {
+  padding-top: 5%;
+}
 </style>
